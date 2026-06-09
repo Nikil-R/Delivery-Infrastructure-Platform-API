@@ -115,7 +115,7 @@ const Simulator: React.FC = () => {
       const res = await fetch(`${serverUrl}/drivers/${driver.id}/location`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ lat: markerPos.lat, lng: markerPos.lng })
+        body: JSON.stringify({ latitude: markerPos.lat, longitude: markerPos.lng })
       });
       if (!res.ok) throw new Error('Failed to update location');
       
@@ -134,7 +134,7 @@ const Simulator: React.FC = () => {
     try {
       setError(null);
       const res = await fetch(`${serverUrl}/drivers/${driver.id}/availability`, {
-        method: 'POST',
+        method: 'PATCH',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ is_available: val })
       });
