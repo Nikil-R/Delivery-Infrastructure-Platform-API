@@ -40,14 +40,12 @@ services:
     container_name: api-1
     restart: always
     environment:
-      - DATABASE_URL=postgresql+asyncpg://postgres:postgrespassword@postgres:5432/delivery_platform
-      - REDIS_URL=redis://redis:6379/0
+      - DATABASE_URL=${DATABASE_URL:-postgresql+asyncpg://postgres:postgrespassword@postgres:5432/delivery_platform}
+      - REDIS_URL=${REDIS_URL:-redis://redis:6379/0}
       - TESTING=0
     expose:
       - "8000"
     depends_on:
-      postgres:
-        condition: service_healthy
       redis:
         condition: service_healthy
     healthcheck:
@@ -63,14 +61,12 @@ services:
     container_name: api-2
     restart: always
     environment:
-      - DATABASE_URL=postgresql+asyncpg://postgres:postgrespassword@postgres:5432/delivery_platform
-      - REDIS_URL=redis://redis:6379/0
+      - DATABASE_URL=${DATABASE_URL:-postgresql+asyncpg://postgres:postgrespassword@postgres:5432/delivery_platform}
+      - REDIS_URL=${REDIS_URL:-redis://redis:6379/0}
       - TESTING=0
     expose:
       - "8000"
     depends_on:
-      postgres:
-        condition: service_healthy
       redis:
         condition: service_healthy
     healthcheck:
@@ -86,14 +82,12 @@ services:
     container_name: api-3
     restart: always
     environment:
-      - DATABASE_URL=postgresql+asyncpg://postgres:postgrespassword@postgres:5432/delivery_platform
-      - REDIS_URL=redis://redis:6379/0
+      - DATABASE_URL=${DATABASE_URL:-postgresql+asyncpg://postgres:postgrespassword@postgres:5432/delivery_platform}
+      - REDIS_URL=${REDIS_URL:-redis://redis:6379/0}
       - TESTING=0
     expose:
       - "8000"
     depends_on:
-      postgres:
-        condition: service_healthy
       redis:
         condition: service_healthy
     healthcheck:
@@ -110,12 +104,10 @@ services:
     restart: always
     command: celery -A app.core.celery_app worker -Q notifications,analytics --loglevel=info
     environment:
-      - DATABASE_URL=postgresql+asyncpg://postgres:postgrespassword@postgres:5432/delivery_platform
-      - REDIS_URL=redis://redis:6379/0
+      - DATABASE_URL=${DATABASE_URL:-postgresql+asyncpg://postgres:postgrespassword@postgres:5432/delivery_platform}
+      - REDIS_URL=${REDIS_URL:-redis://redis:6379/0}
       - TESTING=0
     depends_on:
-      postgres:
-        condition: service_healthy
       redis:
         condition: service_healthy
     healthcheck:
@@ -132,12 +124,10 @@ services:
     restart: always
     command: celery -A app.core.celery_app beat --loglevel=info
     environment:
-      - DATABASE_URL=postgresql+asyncpg://postgres:postgrespassword@postgres:5432/delivery_platform
-      - REDIS_URL=redis://redis:6379/0
+      - DATABASE_URL=${DATABASE_URL:-postgresql+asyncpg://postgres:postgrespassword@postgres:5432/delivery_platform}
+      - REDIS_URL=${REDIS_URL:-redis://redis:6379/0}
       - TESTING=0
     depends_on:
-      postgres:
-        condition: service_healthy
       redis:
         condition: service_healthy
 
