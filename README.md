@@ -1,5 +1,12 @@
 # Delivery Infrastructure Platform API
 
+[![Python](https://img.shields.io/badge/Python-3.12-3776AB.svg?style=flat&logo=python&logoColor=white)](https://python.org)
+[![FastAPI](https://img.shields.io/badge/FastAPI-0.110%2B-00968F.svg?style=flat&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com)
+[![Docker](https://img.shields.io/badge/Docker-Compose-2496ED.svg?style=flat&logo=docker&logoColor=white)](https://www.docker.com)
+[![Redis](https://img.shields.io/badge/Redis-v7.0-DC382D.svg?style=flat&logo=redis&logoColor=white)](https://redis.io)
+[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-v15-4169E1.svg?style=flat&logo=postgresql&logoColor=white)](https://www.postgresql.org)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat)](https://opensource.org/licenses/MIT)
+
 A production-grade, highly-scalable SaaS Logistics & Real-Time Tracking Platform designed for automated driver assignment, high-frequency GPS telemetry ingestion, and multi-tenant quota metering.
 
 This project implements a complete distributed system showcasing robust horizontal scaling, passive upstream health checks, real-time message routing, circuit breakers, and custom monitoring pipelines.
@@ -143,7 +150,25 @@ This deploys Postgres, Redis, three scaled FastAPI instances, Nginx load balance
 
 ---
 
-## 7. Performance Benchmarks (Locust Load Tests)
+## 7. AWS Cloud Infrastructure & Production Deployment
+
+The platform is built for production-ready cloud deployment and is currently hosted on **Amazon Web Services (AWS)**:
+
+### Infrastructure Setup
+* **AWS EC2 Compute**: Hosted on an **EC2 compute instance** running Ubuntu.
+* **Multi-Container Composition**: Configured via **Docker Compose** to link sandboxed microservices in a virtual network:
+  - **Reverse Proxy**: Nginx handling SSL/TLS termination, static resource routing, and WebSocket load balancing.
+  - **FastAPI Cluster**: Replicated application instances handling high-throughput REST and WS operations.
+  - **Distributed Caching**: Redis caching geodata, rate-limiting tokens, and queuing Heartbeat Streams.
+  - **Worker Pipelines**: Celery tasks running state machine validations and telemetry auditing in the background.
+* **Network & Firewall Security**: Secured using **AWS Security Groups** to block all inbound traffic except:
+  - Port `80` (Enforces permanent 301 HTTP-to-HTTPS redirection)
+  - Port `443` (Secure HTTPS client dashboards and WSS location streams)
+  - Ports `3000` & `9090` (Secure dashboards for Prometheus metrics and Grafana analytics)
+
+---
+
+## 8. Performance Benchmarks (Locust Load Tests)
 
 We executed load testing simulating realistic multi-role activity (merchants creating orders, drivers updating GPS coordinates, customers polling tracking feeds, and admin vitals scraping):
 
@@ -163,4 +188,5 @@ pip install locust
 locust -f load_tests/locustfile.py --host=http://localhost
 ```
 Open `http://localhost:8089` to configure virtual users and observe performance metrics.
+
 
