@@ -143,8 +143,8 @@ services:
       - ./certs:/etc/nginx/certs:ro
     depends_on:
       - api-1
-      - api-2
-      - api-3
+      # - api-2
+      # - api-3
 
   prometheus:
     image: prom/prometheus:latest
@@ -157,8 +157,8 @@ services:
       - prometheus_data:/prometheus
     depends_on:
       - api-1
-      - api-2
-      - api-3
+      # - api-2
+      # - api-3
 
   grafana:
     image: grafana/grafana-oss:latest
