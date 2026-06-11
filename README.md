@@ -10,7 +10,54 @@ This project implements a complete distributed system showcasing robust horizont
 
 The platform isolates high-frequency geodata ingestion (writes to memory/Redis Stream) from the transactional databases (PostgreSQL) to prevent disk write bottlenecks:
 
-![System Architecture](Documents/phase2_realtime_architecture.svg)
+```mermaid
+graph TD
+    %% 1. Client Layer
+    subgraph Client Layer [1. Client & Simulator Interfaces]
+        Sim[Driver GPS Simulator]
+        Map[React Operations Control Center]
+        Track[Customer Tracking Page]
+        Portal[Developer Portal Page]
+    end
+
+    %% Flow from Clients to Gateway
+    Sim -->|Heartbeat GPS Pings| Nginx
+    Map -->|Operator REST Requests| Nginx
+    Track -->|Customer Track Queries| Nginx
+    Portal -->|Developer Quota Requests| Nginx
+
+    %% 2. Gateway Layer
+    subgraph Gateway Layer [2. Load Balancer Gateway]
+        Nginx[Nginx Load Balancer]
+    end
+
+    %% Flow from Gateway to App Nodes
+    Nginx -->|SSL Termination & Proxy| API1[FastAPI Application Node 1]
+    Nginx -->|SSL Termination & Proxy| API2[FastAPI Application Node 2]
+    Nginx -->|SSL Termination & Proxy| API3[FastAPI Application Node 3]
+
+    %% 3. Ingestion & Streaming Layer
+    subgraph Telemetry Layer [3. Event Telemetry Backbone]
+        API1 & API2 & API3 -->|High-Freq Coordinates| RedisStream[(Redis Stream: stream:locations)]
+        API1 & API2 & API3 -->|WebSocket Broadcasts| RedisPubSub[Redis Pub/Sub: delivery:id]
+    end
+
+    %% WebSockets Fan-out back to clients
+    RedisPubSub -->|Cross-Instance WS Fan-out| Track
+    RedisPubSub -->|Cross-Instance WS Fan-out| Map
+
+    %% 4. Workers Layer
+    subgraph Job Queue Layer [4. Distributed Worker Queue]
+        RedisStream -->|Consumer Group Ingest| CeleryWorker[Celery Ingestion Workers]
+        CeleryBeat[Celery Beat Scheduler] -->|Hourly Cron Triggers| CeleryWorker
+    end
+
+    %% 5. Persistence Layer
+    subgraph Storage Layer [5. Relational Database Persistence]
+        API1 & API2 & API3 -->|Quota Checks & Read Queries| PostgreSQL[(PostgreSQL Database)]
+        CeleryWorker -->|Throttled Write Commits| PostgreSQL
+    end
+```
 
 ---
 
