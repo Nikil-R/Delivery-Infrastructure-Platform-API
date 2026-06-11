@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { ArrowLeft, Activity, Server, AlertOctagon, RefreshCw, BarChart2, ShieldAlert, CheckCircle, Percent } from 'lucide-react';
 
 const Admin: React.FC = () => {
-  const [serverUrl, setServerUrl] = useState(() => localStorage.getItem('dep_server_url') || 'http://localhost:8000');
+  const [serverUrl, setServerUrl] = useState(() => localStorage.getItem('dep_server_url') || (window.location.origin.includes('localhost:5173') ? 'http://localhost:8000' : window.location.origin));
   const [apiKey, setApiKey] = useState(() => localStorage.getItem('dep_api_key') || 'test_api_key_123');
 
   const [vitals, setVitals] = useState<any>(null);

@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { ArrowLeft, Code, Key, BookOpen, Activity, Terminal, Copy, Check } from 'lucide-react';
 
 const DeveloperPortal: React.FC = () => {
-  const [serverUrl, setServerUrl] = useState(() => localStorage.getItem('dep_server_url') || 'http://localhost:8000');
+  const [serverUrl, setServerUrl] = useState(() => localStorage.getItem('dep_server_url') || (window.location.origin.includes('localhost:5173') ? 'http://localhost:8000' : window.location.origin));
   const [apiKey, setApiKey] = useState(() => localStorage.getItem('dep_api_key') || 'test_api_key_123');
 
   const [usageData, setUsageData] = useState<any>(null);

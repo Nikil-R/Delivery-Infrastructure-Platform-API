@@ -6,7 +6,7 @@ import { driverIcon } from '../utils/leafletIcons';
 
 const Simulator: React.FC = () => {
   // App Configs
-  const [serverUrl, setServerUrl] = useState(() => localStorage.getItem('dep_server_url') || 'http://localhost:8000');
+  const [serverUrl, setServerUrl] = useState(() => localStorage.getItem('dep_server_url') || (window.location.origin.includes('localhost:5173') ? 'http://localhost:8000' : window.location.origin));
   const [apiKey, setApiKey] = useState(() => localStorage.getItem('dep_api_key') || 'test_api_key_123');
 
   // Simulator State
