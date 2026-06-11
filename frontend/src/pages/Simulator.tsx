@@ -189,17 +189,17 @@ const Simulator: React.FC = () => {
   };
 
   return (
-    <div className="min-h-screen bg-[#FDFBF7] text-[#111827] flex flex-col font-sans">
+    <div className="premium-app font-sans antialiased">
       {/* Header */}
-      <header className="border-b border-[#EAE6DF] bg-white/80 backdrop-blur-md sticky top-0 z-50">
+      <header className="premium-header">
         <div className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
           <div className="flex items-center space-x-4">
-            <Link to="/" className="p-2 hover:bg-[#FAF8F5] rounded-xl text-[#6B7280] hover:text-[#111827] transition-colors border border-transparent hover:border-[#EAE6DF]">
+            <Link to="/" className="btn-premium-secondary p-2 rounded-xl text-gray-500 hover:text-gray-800 transition-colors">
               <ArrowLeft className="w-4 h-4" />
             </Link>
             <div className="flex items-center space-x-2">
-              <Play className="w-5 h-5 text-indigo-600 animate-pulse" />
-              <span className="font-semibold text-base">Driver GPS & Dispatch Simulator</span>
+              <Play className="w-4 h-4 text-indigo-650" />
+              <span className="font-semibold text-sm text-gray-900">Driver GPS & Dispatch Simulator</span>
             </div>
           </div>
         </div>
@@ -211,53 +211,53 @@ const Simulator: React.FC = () => {
         {/* Left Control Panel */}
         <div className="lg:col-span-1 space-y-6">
           {/* Server Config */}
-          <div className="p-5 bg-white border border-[#EAE6DF] rounded-xl shadow-[0_1px_3px_rgba(0,0,0,0.05)] space-y-3">
-            <h2 className="text-xs font-semibold uppercase tracking-wider text-[#6B7280]">Connection Settings</h2>
+          <div className="premium-card space-y-3">
+            <h2 className="text-[10px] font-bold uppercase tracking-wider text-gray-500">Connection Settings</h2>
             <div>
-              <label className="text-[10px] text-[#6B7280] block mb-0.5 font-medium uppercase tracking-wider">Gateway API URL</label>
+              <label className="premium-label mb-0.5">Gateway API URL</label>
               <input 
                 type="text" 
                 value={serverUrl} 
                 onChange={(e) => setServerUrl(e.target.value)} 
-                className="w-full px-2.5 py-1.5 bg-[#FAF8F5] border border-[#EAE6DF] rounded-md text-[#111827] focus:outline-none font-mono text-xs"
+                className="premium-input font-mono"
               />
             </div>
             <div>
-              <label className="text-[10px] text-[#6B7280] block mb-0.5 font-medium uppercase tracking-wider">Tenant Auth Token</label>
+              <label className="premium-label mb-0.5">Tenant Auth Token</label>
               <input 
-                type="text" 
+                type="password" 
                 value={apiKey} 
                 onChange={(e) => setApiKey(e.target.value)} 
-                className="w-full px-2.5 py-1.5 bg-[#FAF8F5] border border-[#EAE6DF] rounded-md text-[#111827] focus:outline-none font-mono text-xs"
+                className="premium-input font-mono"
               />
             </div>
           </div>
 
           {/* Load / Create Driver */}
-          <div className="p-5 bg-white border border-[#EAE6DF] rounded-xl shadow-[0_1px_3px_rgba(0,0,0,0.05)] space-y-4">
-            <h2 className="text-xs font-semibold uppercase tracking-wider text-[#6B7280]">Driver Access Control</h2>
+          <div className="premium-card space-y-4">
+            <h2 className="text-[10px] font-bold uppercase tracking-wider text-gray-500">Driver Access Control</h2>
             
             {/* Load existing */}
             <div className="flex gap-2">
               <input
                 type="number"
-                placeholder="Driver ID"
+                placeholder="ID"
                 value={driverId}
                 onChange={(e) => setDriverId(e.target.value ? Number(e.target.value) : '')}
-                className="w-20 px-2.5 py-1.5 bg-[#FAF8F5] border border-[#EAE6DF] rounded-lg text-center text-xs font-mono text-[#111827] focus:outline-none"
+                className="premium-input text-center font-mono w-16"
               />
               <button
                 onClick={handleLoadDriver}
-                className="flex-grow py-2 px-3 bg-[#FAF8F5] hover:bg-white border border-[#EAE6DF] hover:border-indigo-400 font-semibold text-xs rounded-lg text-[#111827] transition-all cursor-pointer"
+                className="btn-premium-secondary flex-grow text-xs py-1.5 font-semibold"
               >
                 Load Driver Profile
               </button>
             </div>
 
             <div className="relative flex py-1 items-center">
-              <div className="flex-grow border-t border-[#EAE6DF]"></div>
-              <span className="flex-shrink mx-3 text-[9px] text-[#9CA3AF] font-bold uppercase tracking-wider">or Register New</span>
-              <div className="flex-grow border-t border-[#EAE6DF]"></div>
+              <div className="flex-grow border-t border-[#ECEAE5]"></div>
+              <span className="flex-shrink mx-3 text-[9px] text-gray-400 font-bold uppercase tracking-wider">or Register New</span>
+              <div className="flex-grow border-t border-[#ECEAE5]"></div>
             </div>
 
             {/* Create new */}
@@ -267,18 +267,18 @@ const Simulator: React.FC = () => {
                 placeholder="Driver Name"
                 value={newDriverName}
                 onChange={(e) => setNewDriverName(e.target.value)}
-                className="w-full px-2.5 py-1.5 bg-[#FAF8F5] border border-[#EAE6DF] rounded-lg text-xs text-[#111827] focus:outline-none"
+                className="premium-input"
               />
               <input
                 type="text"
                 placeholder="Driver Phone Number"
                 value={newDriverPhone}
                 onChange={(e) => setNewDriverPhone(e.target.value)}
-                className="w-full px-2.5 py-1.5 bg-[#FAF8F5] border border-[#EAE6DF] rounded-lg text-xs text-[#111827] focus:outline-none font-mono"
+                className="premium-input font-mono"
               />
               <button
                 type="submit"
-                className="w-full py-2 bg-indigo-600 hover:bg-indigo-700 text-xs font-semibold rounded-lg text-white transition-all shadow-[0_1px_2px_rgba(0,0,0,0.05)] cursor-pointer"
+                className="btn-premium-primary w-full py-2 font-semibold text-xs"
               >
                 Register Driver
               </button>
@@ -287,21 +287,21 @@ const Simulator: React.FC = () => {
 
           {/* Error Banner */}
           {error && (
-            <div className="p-3 bg-rose-50 border border-rose-200 text-rose-800 rounded-xl text-xs font-medium">
+            <div className="badge-premium badge-rose normal-case block w-full text-center py-2.5 rounded-xl text-xs font-medium">
               {error}
             </div>
           )}
 
           {/* Active Driver Actions */}
           {driver && (
-            <div className="p-5 bg-white border border-[#EAE6DF] rounded-xl shadow-[0_1px_3px_rgba(0,0,0,0.05)] space-y-4">
-              <div className="flex justify-between items-center pb-3 border-b border-[#EAE6DF]">
+            <div className="premium-card space-y-4">
+              <div className="flex justify-between items-center pb-2.5 border-b border-[#ECEAE5]">
                 <div>
-                  <h3 className="font-semibold text-[#111827] text-sm">{driver.name}</h3>
-                  <p className="text-[10px] text-[#6B7280] font-medium font-mono">Profile ID: #{driver.id}</p>
+                  <h3 className="font-semibold text-gray-900 text-xs">{driver.name}</h3>
+                  <p className="text-[9px] text-gray-500 font-semibold font-mono">Driver ID: #{driver.id}</p>
                 </div>
-                <div className={`px-2.5 py-0.5 rounded-full text-[10px] font-bold ${
-                  driver.status === 'ONLINE' ? 'bg-emerald-50 text-emerald-700 border border-emerald-200' : 'bg-gray-150 text-gray-600'
+                <div className={`badge-premium ${
+                  driver.status === 'ONLINE' ? 'badge-emerald' : 'badge-gray'
                 }`}>
                   {driver.status}
                 </div>
@@ -309,12 +309,12 @@ const Simulator: React.FC = () => {
 
               {/* Active Offer Alert Banner */}
               {activeOffer && (
-                <div className="p-4 bg-indigo-50 border border-indigo-200 rounded-lg space-y-2.5">
+                <div className="p-3.5 bg-indigo-50 border border-indigo-200 rounded-lg space-y-2">
                   <div className="flex justify-between items-center">
-                    <span className="text-[10px] font-bold text-indigo-700 uppercase tracking-wider">Proposed Order Offer!</span>
-                    <span className="text-[10px] font-mono bg-indigo-100 text-indigo-750 px-2 py-0.5 rounded font-bold">#{activeOffer.id}</span>
+                    <span className="text-[9px] font-bold text-indigo-750 uppercase tracking-wider">Order Offer Assigned!</span>
+                    <span className="text-[9px] font-mono bg-indigo-150 text-indigo-850 px-1.5 py-0.5 rounded font-bold">#{activeOffer.id}</span>
                   </div>
-                  <p className="text-[10px] text-[#6B7280] leading-relaxed font-mono">
+                  <p className="text-[9px] text-gray-550 leading-normal font-mono">
                     Pickup: {activeOffer.pickup_lat.toFixed(4)}, {activeOffer.pickup_lng.toFixed(4)}<br />
                     Dropoff: {activeOffer.dropoff_lat.toFixed(4)}, {activeOffer.dropoff_lng.toFixed(4)}
                   </p>
@@ -323,7 +323,7 @@ const Simulator: React.FC = () => {
                       onClick={async () => {
                         try {
                           setError(null);
-                          const res = await fetch(`${serverUrl}/deliveries/${activeOffer.id}/accept`, {
+                           const res = await fetch(`${serverUrl}/deliveries/${activeOffer.id}/accept`, {
                             method: 'POST',
                             headers: { 
                               'Content-Type': 'application/json',
@@ -339,7 +339,7 @@ const Simulator: React.FC = () => {
                           setError(err.message || 'Accept failed');
                         }
                       }}
-                      className="py-1.5 px-3 bg-emerald-600 hover:bg-emerald-700 font-semibold text-xs rounded-lg text-white transition-all cursor-pointer"
+                      className="btn-premium-primary py-1.5 font-semibold text-xs"
                     >
                       Accept
                     </button>
@@ -363,7 +363,7 @@ const Simulator: React.FC = () => {
                           setError(err.message || 'Reject failed');
                         }
                       }}
-                      className="py-1.5 px-3 bg-rose-600 hover:bg-rose-700 font-semibold text-xs rounded-lg text-white transition-all cursor-pointer"
+                      className="btn-premium-danger py-1.5 font-semibold text-xs"
                     >
                       Reject
                     </button>
@@ -373,7 +373,7 @@ const Simulator: React.FC = () => {
 
               {/* Toggles */}
               <div className="flex items-center justify-between text-xs">
-                <span className="text-[#6B7280] font-medium">Availability for assignments:</span>
+                <span className="text-gray-500 font-medium">Availability state (GEO Index):</span>
                 <label className="relative inline-flex items-center cursor-pointer">
                   <input 
                     type="checkbox" 
@@ -386,15 +386,15 @@ const Simulator: React.FC = () => {
               </div>
 
               {/* Coordinates info */}
-              <div className="bg-[#FAF8F5] p-4 border border-[#EAE6DF] rounded-xl space-y-2.5">
-                <span className="text-[10px] text-[#6B7280] uppercase font-bold tracking-wider">Simulator Target Pin</span>
-                <div className="flex justify-between items-center text-[10px] font-mono text-[#4B5563]">
+              <div className="bg-[#FAF8F5] p-3.5 border border-[#ECEAE5] rounded-xl space-y-2">
+                <span className="text-[9px] text-gray-500 uppercase font-bold tracking-wider">Mock GPS Pin Target</span>
+                <div className="flex justify-between items-center text-[10px] font-mono text-gray-500">
                   <span>Lat: {markerPos.lat.toFixed(6)}</span>
                   <span>Lng: {markerPos.lng.toFixed(6)}</span>
                 </div>
                 <button
                   onClick={handleSendLocation}
-                  className="w-full mt-1.5 py-2 bg-indigo-600 hover:bg-indigo-700 text-white font-semibold text-xs rounded-lg flex items-center justify-center space-x-2 transition-all cursor-pointer"
+                  className="btn-premium-primary w-full mt-1.5 flex items-center justify-center space-x-2 cursor-pointer"
                 >
                   <Send className="w-3.5 h-3.5" />
                   <span>Send GPS Ping Update</span>
@@ -402,19 +402,19 @@ const Simulator: React.FC = () => {
               </div>
 
               {/* Manual Order Controls */}
-              <div className="border-t border-[#EAE6DF] pt-4 space-y-3">
-                <h3 className="text-xs font-semibold uppercase tracking-wider text-[#6B7280]">Manual Dispatch Override</h3>
+              <div className="border-t border-[#ECEAE5] pt-4 space-y-3">
+                <h3 className="text-[10px] font-bold uppercase tracking-wider text-gray-500">Dispatch Pipeline Overrides</h3>
                 <div className="flex gap-2">
                   <input
                     type="number"
                     placeholder="Order ID"
                     value={manualOrderId}
                     onChange={(e) => setManualOrderId(e.target.value ? Number(e.target.value) : '')}
-                    className="w-16 px-2 py-1.5 bg-[#FAF8F5] border border-[#EAE6DF] rounded-lg text-xs font-mono text-center text-[#111827] focus:outline-none"
+                    className="premium-input text-center font-mono w-16"
                   />
                   <button
                     onClick={() => handleManualStatusChange('ASSIGNED')}
-                    className="flex-grow py-1.5 px-3 bg-[#FAF8F5] hover:bg-white border border-[#EAE6DF] hover:border-indigo-400 font-semibold text-[10px] rounded-lg text-[#111827] cursor-pointer"
+                    className="btn-premium-secondary py-1.5 px-3 text-[10px] font-semibold flex-grow cursor-pointer"
                   >
                     Force Assign
                   </button>
@@ -422,19 +422,19 @@ const Simulator: React.FC = () => {
                 <div className="grid grid-cols-3 gap-2">
                   <button
                     onClick={() => handleManualStatusChange('PICKED_UP')}
-                    className="py-1.5 px-1 bg-[#FAF8F5] hover:bg-white border border-[#EAE6DF] hover:border-indigo-400 font-semibold text-[10px] rounded-lg text-[#4B5563] cursor-pointer"
+                    className="btn-premium-secondary py-1.5 text-[10px] font-semibold cursor-pointer"
                   >
                     Pick Up
                   </button>
                   <button
                     onClick={() => handleManualStatusChange('IN_TRANSIT')}
-                    className="py-1.5 px-1 bg-[#FAF8F5] hover:bg-white border border-[#EAE6DF] hover:border-indigo-400 font-semibold text-[10px] rounded-lg text-[#4B5563] cursor-pointer"
+                    className="btn-premium-secondary py-1.5 text-[10px] font-semibold cursor-pointer"
                   >
                     In Transit
                   </button>
                   <button
                     onClick={() => handleManualStatusChange('DELIVERED')}
-                    className="py-1.5 px-1 bg-emerald-600 hover:bg-emerald-700 text-white font-semibold text-[10px] rounded-lg cursor-pointer"
+                    className="btn-premium-primary py-1.5 text-[10px] font-semibold cursor-pointer"
                   >
                     Deliver
                   </button>
@@ -447,9 +447,9 @@ const Simulator: React.FC = () => {
 
         {/* Right Side: Map & Logger */}
         <div className="lg:col-span-2 flex flex-col space-y-6">
-          <div className="h-[450px] relative rounded-xl overflow-hidden border border-[#EAE6DF] bg-white shadow-[0_2px_8px_rgba(0,0,0,0.04)]">
-            <div className="absolute top-3 left-12 z-20 bg-white/95 border border-[#EAE6DF] px-3 py-1.5 rounded-lg text-[10px] font-medium text-[#4B5563] shadow-md">
-              🖱️ Click anywhere on the map to place the driver target destination pin.
+          <div className="h-[480px] relative rounded-xl overflow-hidden border border-[#ECEAE5] bg-white shadow-[0_1px_3px_rgba(0,0,0,0.02)]">
+            <div className="absolute top-3 left-12 z-20 bg-white/95 border border-[#ECEAE5] px-3 py-1.5 rounded-lg text-[9px] font-semibold uppercase tracking-wide text-gray-500 shadow-md">
+              🖱️ Click map to place the driver target destination pin
             </div>
             
             <MapContainer center={[12.9716, 77.5946]} zoom={13} className="w-full h-full">
@@ -463,17 +463,28 @@ const Simulator: React.FC = () => {
           </div>
 
           {/* Simulator logs */}
-          <div className="p-5 bg-white border border-[#EAE6DF] rounded-xl shadow-[0_1px_3px_rgba(0,0,0,0.05)] flex flex-col h-[200px]">
-            <h2 className="text-xs font-semibold uppercase tracking-wider text-[#6B7280] pb-2 border-b border-[#EAE6DF] mb-3">Simulator Output Console</h2>
-            <div className="flex-grow overflow-y-auto bg-[#FAF8F5] border border-[#EAE6DF] rounded-lg p-3 font-mono text-[10px] space-y-1.5 text-[#4B5563]">
+          <div className="premium-card flex flex-col h-[230px]">
+            <h2 className="text-xs font-semibold uppercase tracking-wider text-gray-500 pb-2 border-b border-[#ECEAE5] mb-3">Simulator Console Output</h2>
+            <div className="flex-grow overflow-y-auto terminal-panel p-3 space-y-2">
               {log.length === 0 ? (
-                <div className="text-[#9CA3AF] text-center py-12">Waiting for simulation events...</div>
+                <div className="text-gray-500 text-center py-12 italic font-mono text-[10px]">Waiting for simulation events...</div>
               ) : (
-                log.map((entry, index) => (
-                  <div key={index} className="border-l-2 border-indigo-200 pl-2 leading-relaxed">
-                    {entry}
-                  </div>
-                ))
+                log.map((entry, index) => {
+                  let logColor = 'text-gray-400';
+                  if (entry.includes('[Broadcast]')) {
+                    logColor = 'text-emerald-400';
+                  } else if (entry.includes('[System]')) {
+                    logColor = 'text-indigo-400 font-semibold';
+                  } else if (entry.includes('transitioned')) {
+                    logColor = 'text-amber-400';
+                  }
+                  return (
+                    <div key={index} className="terminal-line">
+                      <span className="terminal-timestamp">[{new Date().toLocaleTimeString()}]</span>
+                      <span className={logColor}>{entry.replace(/^\[.*?\]\s*/, '')}</span>
+                    </div>
+                  );
+                })
               )}
             </div>
           </div>

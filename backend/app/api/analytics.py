@@ -216,3 +216,28 @@ async def get_observability_vitals(
         }
     }
 
+
+@router.post("/tenant/rotate-key")
+async def rotate_tenant_api_key(
+    db: AsyncSession = Depends(get_db),
+    tenant: Tenant = Depends(get_current_tenant)
+):
+    """Regenerates a secure random API key for the authenticated tenant."""
+    from app.core.security import generate_api_key
+    
+    old_key = tenant.api_key
+    new_key = generate_api_key()
+    tenant.api_key = new_key
+    
+    # Save changes to Postgres DB
+    await db.commit()
+    await db.refresh(tenant)
+    
+    # Remove old key cache from Redis to enforce invalidation
+    await redis_client.delete(f"tenant:key:{old_key}")
+    
+    return {
+        "detail": "API key successfully rotated",
+        "api_key": new_key
+    }
+

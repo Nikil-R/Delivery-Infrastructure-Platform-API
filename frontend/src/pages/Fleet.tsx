@@ -247,79 +247,81 @@ const Fleet: React.FC = () => {
   const dlqCount = systemVitals?.queues?.dead_letter_queue || 0;
 
   return (
-    <div className="min-h-screen bg-[#FDFBF7] text-[#111827] flex flex-col font-sans">
+    <div className="premium-app font-sans antialiased">
       {/* Header */}
-      <header className="border-b border-[#EAE6DF] bg-white/80 backdrop-blur-md sticky top-0 z-50">
+      <header className="premium-header">
         <div className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
           <div className="flex items-center space-x-4">
-            <Link to="/" className="p-2 hover:bg-[#FAF8F5] rounded-xl text-[#6B7280] hover:text-[#111827] transition-colors border border-transparent hover:border-[#EAE6DF]">
+            <Link to="/" className="btn-premium-secondary p-2 rounded-xl text-gray-500 hover:text-gray-800 transition-colors">
               <ArrowLeft className="w-4 h-4" />
             </Link>
             <div className="flex items-center space-x-2">
-              <Monitor className="w-5 h-5 text-indigo-600" />
-              <span className="font-semibold text-base tracking-tight">Fleet Operations Command</span>
+              <Monitor className="w-4 h-4 text-indigo-650" />
+              <span className="font-semibold text-sm tracking-tight text-gray-900">Fleet Operations Command</span>
             </div>
           </div>
 
           <div className="flex items-center space-x-4">
-            <div className={`flex items-center space-x-1.5 px-3 py-1 rounded-full text-xs font-medium bg-[#FAF8F5] border border-[#EAE6DF]`}>
-              <span className={`w-2 h-2 rounded-full ${wsStatus === 'connected' ? 'bg-emerald-500 animate-pulse' : wsStatus === 'connecting' ? 'bg-amber-500' : 'bg-rose-500'}`} />
-              <span className="text-[#6B7280]">Telemetry Stream: <span className="font-semibold text-[#111827]">{wsStatus}</span></span>
+            <div className="badge-premium badge-gray normal-case py-1.5 px-3 rounded-lg flex items-center">
+              <span className={`w-2 h-2 rounded-full mr-2 ${wsStatus === 'connected' ? 'bg-emerald-500 animate-pulse' : wsStatus === 'connecting' ? 'bg-amber-500' : 'bg-rose-500'}`} />
+              <span className="text-gray-500 font-medium">Telemetry Feed: <span className="font-semibold text-gray-900">{wsStatus}</span></span>
             </div>
           </div>
         </div>
       </header>
 
-      {/* Grid Layout: Top stats dashboard */}
+      {/* Metrics Row */}
       <div className="max-w-7xl mx-auto w-full px-6 pt-6">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
-          <div className="bg-white p-5 border border-[#EAE6DF] rounded-xl shadow-[0_1px_3px_rgba(0,0,0,0.05)]">
-            <span className="text-xs text-[#6B7280] font-medium uppercase tracking-wider block mb-1">Online Fleet</span>
+        <div className="metric-row">
+          <div className="premium-card metric-card">
+            <span className="metric-label block mb-1">Online Fleet</span>
             <div className="flex items-baseline space-x-2">
-              <span className="text-2xl font-bold tracking-tight">{driverList.length}</span>
-              <span className="text-xs text-emerald-600 font-medium bg-emerald-50 px-1.5 py-0.5 rounded">Active</span>
+              <span className="metric-value">{driverList.length}</span>
+              <span className="badge-premium badge-emerald">Active</span>
             </div>
           </div>
 
-          <div className="bg-white p-5 border border-[#EAE6DF] rounded-xl shadow-[0_1px_3px_rgba(0,0,0,0.05)]">
-            <span className="text-xs text-[#6B7280] font-medium uppercase tracking-wider block mb-1">Active Deliveries</span>
+          <div className="premium-card metric-card">
+            <span className="metric-label block mb-1">Active Deliveries</span>
             <div className="flex items-baseline space-x-2">
-              <span className="text-2xl font-bold tracking-tight">{deliveries.filter(d => d.status !== 'DELIVERED' && d.status !== 'CANCELLED').length}</span>
-              <span className="text-xs text-indigo-600 font-medium bg-indigo-50 px-1.5 py-0.5 rounded">In Transit</span>
+              <span className="metric-value">
+                {deliveries.filter(d => d.status !== 'DELIVERED' && d.status !== 'CANCELLED').length}
+              </span>
+              <span className="badge-premium badge-indigo">In Flight</span>
             </div>
           </div>
 
           {/* System Health Status Panel */}
-          <div className="col-span-1 md:col-span-2 bg-white p-5 border border-[#EAE6DF] rounded-xl shadow-[0_1px_3px_rgba(0,0,0,0.05)] flex flex-col justify-between">
-            <span className="text-xs text-[#6B7280] font-medium uppercase tracking-wider block mb-2">System Health (Infrastructure Vitals)</span>
-            <div className="flex flex-wrap items-center gap-x-6 gap-y-2 text-xs">
+          <div className="col-span-1 md:col-span-2 premium-card flex flex-col justify-between">
+            <span className="metric-label block mb-2">System Health</span>
+            <div className="flex flex-wrap items-center gap-x-5 gap-y-1.5 text-xs text-gray-750">
               <div className="flex items-center space-x-1.5">
-                <span className={`w-2.5 h-2.5 rounded-full ${isRedisUp ? 'bg-emerald-500' : 'bg-rose-500'}`} />
-                <span className="font-medium">Redis</span>
+                <span className={`w-2 h-2 rounded-full ${isRedisUp ? 'bg-emerald-500' : 'bg-rose-500'}`} />
+                <span className="font-medium text-gray-600">Redis</span>
               </div>
               <div className="flex items-center space-x-1.5">
-                <span className={`w-2.5 h-2.5 rounded-full ${isPostgresUp ? 'bg-emerald-500' : 'bg-rose-500'}`} />
-                <span className="font-medium">PostgreSQL</span>
+                <span className={`w-2 h-2 rounded-full ${isPostgresUp ? 'bg-emerald-500' : 'bg-rose-500'}`} />
+                <span className="font-medium text-gray-600">PostgreSQL</span>
               </div>
               <div className="flex items-center space-x-1.5">
-                <span className={`w-2.5 h-2.5 rounded-full ${isCeleryUp ? 'bg-emerald-500' : 'bg-rose-500'}`} />
-                <span className="font-medium">Celery</span>
+                <span className={`w-2 h-2 rounded-full ${isCeleryUp ? 'bg-emerald-500' : 'bg-rose-500'}`} />
+                <span className="font-medium text-gray-600">Celery</span>
               </div>
               <div className="flex items-center space-x-1.5">
-                <span className={`w-2.5 h-2.5 rounded-full ${isWsUp ? 'bg-emerald-500' : 'bg-rose-500'}`} />
-                <span className="font-medium">WebSockets</span>
+                <span className={`w-2 h-2 rounded-full ${isWsUp ? 'bg-emerald-500' : 'bg-rose-500'}`} />
+                <span className="font-medium text-gray-600">WebSockets</span>
               </div>
 
               {queueBacklog > 0 && (
-                <div className="flex items-center space-x-1.5 px-2 py-0.5 bg-amber-50 text-amber-800 rounded border border-amber-200">
-                  <Activity className="w-3.5 h-3.5" />
-                  <span className="font-semibold">Backlog: {queueBacklog}</span>
+                <div className="badge-premium badge-amber normal-case py-0.5 px-2 rounded font-semibold text-[10px]">
+                  <span className="w-1 h-1 bg-amber-500 rounded-full mr-1.5" />
+                  <span>Backlog: {queueBacklog}</span>
                 </div>
               )}
               {dlqCount > 0 && (
-                <div className="flex items-center space-x-1.5 px-2 py-0.5 bg-rose-50 text-rose-800 rounded border border-rose-200 animate-pulse">
-                  <ShieldAlert className="w-3.5 h-3.5" />
-                  <span className="font-semibold">DLQ: {dlqCount}</span>
+                <div className="badge-premium badge-rose normal-case py-0.5 px-2 rounded font-semibold text-[10px] animate-pulse">
+                  <span className="w-1.5 h-1.5 bg-rose-600 rounded-full mr-1.5" />
+                  <span>DLQ: {dlqCount}</span>
                 </div>
               )}
             </div>
@@ -327,146 +329,155 @@ const Fleet: React.FC = () => {
         </div>
       </div>
 
-      {/* Main Layout */}
+      {/* Main Command Center Grid */}
       <div className="flex-grow max-w-7xl mx-auto w-full px-6 py-6 grid grid-cols-1 lg:grid-cols-4 gap-6">
         
-        {/* Left Sidebar: Controls & Settings */}
+        {/* Left Sidebar Control Panel */}
         <div className="lg:col-span-1 space-y-6">
           
-          {/* Create & Dispatch Order Form */}
-          <div className="p-5 bg-white border border-[#EAE6DF] rounded-xl shadow-[0_1px_3px_rgba(0,0,0,0.05)] space-y-4">
-            <div className="flex items-center space-x-2 pb-2 border-b border-[#EAE6DF]">
+          {/* Dispatch Order Form */}
+          <div className="premium-card space-y-4">
+            <div className="flex items-center space-x-2 pb-2 border-b border-[#ECEAE5]">
               <Navigation className="w-4 h-4 text-indigo-600" />
-              <h2 className="text-sm font-semibold text-[#111827]">Dispatch New Delivery</h2>
+              <h2 className="text-xs font-semibold text-gray-900 uppercase tracking-wider">Manual Dispatch</h2>
             </div>
             {error && (
-              <div className="p-3 bg-rose-50 border border-rose-200 text-rose-800 rounded-lg text-xs font-medium">
+              <div className="badge-premium badge-rose normal-case block w-full text-center py-2 rounded-lg font-medium text-xs">
                 {error}
               </div>
             )}
             {successMsg && (
-              <div className="p-3 bg-emerald-50 border border-emerald-200 text-emerald-800 rounded-lg text-xs font-medium">
+              <div className="badge-premium badge-emerald normal-case block w-full text-center py-2 rounded-lg font-medium text-xs">
                 {successMsg}
               </div>
             )}
-            <div className="grid grid-cols-2 gap-3 text-xs">
+            <div className="grid grid-cols-2 gap-3">
               <div>
-                <label className="text-[#6B7280] block mb-1 font-medium">Pickup Lat</label>
+                <label className="premium-label block mb-1">Pickup Lat</label>
                 <input 
                   type="number" 
                   step="0.0001" 
                   value={pickupLat} 
                   onChange={(e) => setPickupLat(Number(e.target.value))}
-                  className="w-full px-3 py-2 bg-[#FAF8F5] border border-[#EAE6DF] rounded-lg text-[#111827] focus:outline-none focus:border-indigo-500 font-mono"
+                  className="premium-input font-mono"
                 />
               </div>
               <div>
-                <label className="text-[#6B7280] block mb-1 font-medium">Pickup Lng</label>
+                <label className="premium-label block mb-1">Pickup Lng</label>
                 <input 
                   type="number" 
                   step="0.0001" 
                   value={pickupLng} 
                   onChange={(e) => setPickupLng(Number(e.target.value))}
-                  className="w-full px-3 py-2 bg-[#FAF8F5] border border-[#EAE6DF] rounded-lg text-[#111827] focus:outline-none focus:border-indigo-500 font-mono"
+                  className="premium-input font-mono"
                 />
               </div>
             </div>
-            <div className="grid grid-cols-2 gap-3 text-xs">
+            <div className="grid grid-cols-2 gap-3">
               <div>
-                <label className="text-[#6B7280] block mb-1 font-medium">Dropoff Lat</label>
+                <label className="premium-label block mb-1">Dropoff Lat</label>
                 <input 
                   type="number" 
                   step="0.0001" 
                   value={dropoffLat} 
                   onChange={(e) => setDropoffLat(Number(e.target.value))}
-                  className="w-full px-3 py-2 bg-[#FAF8F5] border border-[#EAE6DF] rounded-lg text-[#111827] focus:outline-none focus:border-indigo-500 font-mono"
+                  className="premium-input font-mono"
                 />
               </div>
               <div>
-                <label className="text-[#6B7280] block mb-1 font-medium">Dropoff Lng</label>
+                <label className="premium-label block mb-1">Dropoff Lng</label>
                 <input 
                   type="number" 
                   step="0.0001" 
                   value={dropoffLng} 
                   onChange={(e) => setDropoffLng(Number(e.target.value))}
-                  className="w-full px-3 py-2 bg-[#FAF8F5] border border-[#EAE6DF] rounded-lg text-[#111827] focus:outline-none focus:border-indigo-500 font-mono"
+                  className="premium-input font-mono"
                 />
               </div>
             </div>
             <button
               onClick={handleCreateAndDispatch}
               disabled={loading}
-              className="w-full py-2.5 bg-indigo-600 hover:bg-indigo-700 disabled:bg-indigo-400 text-white font-semibold text-xs rounded-lg transition-all shadow-[0_1px_2px_rgba(0,0,0,0.05)] cursor-pointer"
+              className="btn-premium-primary w-full cursor-pointer py-2.5 font-semibold text-xs"
             >
-              {loading ? "Processing..." : "Create & Auto-Dispatch Order"}
+              {loading ? "Processing..." : "Create & Auto-Dispatch"}
             </button>
           </div>
 
           {/* Connection Settings */}
-          <div className="p-5 bg-white border border-[#EAE6DF] rounded-xl shadow-[0_1px_3px_rgba(0,0,0,0.05)] space-y-3">
-            <div className="flex items-center space-x-2 pb-2 border-b border-[#EAE6DF]">
-              <Settings className="w-4 h-4 text-[#6B7280]" />
-              <h2 className="text-sm font-semibold text-[#111827]">Server Credentials</h2>
+          <div className="premium-card space-y-3">
+            <div className="flex items-center space-x-2 pb-2 border-b border-[#ECEAE5]">
+              <Settings className="w-4 h-4 text-gray-500" />
+              <h2 className="text-xs font-semibold text-gray-900 uppercase tracking-wider">Gateway Configuration</h2>
             </div>
             <div>
-              <label className="text-[10px] text-[#6B7280] block mb-0.5 font-medium uppercase tracking-wider">Gateway API Url</label>
+              <label className="premium-label mb-0.5">Gateway API URL</label>
               <input 
                 type="text" 
                 value={serverUrl} 
                 onChange={(e) => setServerUrl(e.target.value)} 
-                className="w-full px-2.5 py-1.5 bg-[#FAF8F5] border border-[#EAE6DF] rounded-md text-xs text-[#111827] focus:outline-none font-mono"
+                className="premium-input font-mono"
               />
             </div>
             <div>
-              <label className="text-[10px] text-[#6B7280] block mb-0.5 font-medium uppercase tracking-wider">X-API-Key</label>
+              <label className="premium-label mb-0.5">X-API-Key</label>
               <input 
-                type="text" 
+                type="password" 
                 value={apiKey} 
                 onChange={(e) => setApiKey(e.target.value)} 
-                className="w-full px-2.5 py-1.5 bg-[#FAF8F5] border border-[#EAE6DF] rounded-md text-xs text-[#111827] focus:outline-none font-mono"
+                className="premium-input font-mono"
               />
             </div>
           </div>
 
-          {/* Operational Log Box */}
-          <div className="p-5 bg-white border border-[#EAE6DF] rounded-xl shadow-[0_1px_3px_rgba(0,0,0,0.05)] flex flex-col h-[280px]">
-            <div className="flex items-center space-x-2 pb-2 border-b border-[#EAE6DF] mb-3">
-              <Radio className="w-4 h-4 text-indigo-600 animate-pulse" />
-              <h2 className="text-sm font-semibold text-[#111827]">Live Operation Logs</h2>
+          {/* Live Operations Feed */}
+          <div className="premium-card flex flex-col h-[300px]">
+            <div className="flex items-center space-x-2 pb-2 border-b border-[#ECEAE5] mb-3">
+              <Radio className="w-4 h-4 text-indigo-650" />
+              <h2 className="text-xs font-semibold text-gray-900 uppercase tracking-wider">Operational logs feed</h2>
             </div>
-            <div className="flex-grow overflow-y-auto bg-[#FAF8F5] border border-[#EAE6DF] rounded-lg p-3 font-mono text-[10px] space-y-1.5 text-[#4B5563]">
+            <div className="flex-grow overflow-y-auto terminal-panel p-3 space-y-2">
               {logs.length === 0 ? (
-                <div className="text-[#9CA3AF] text-center py-12">Listening to websocket event streams...</div>
+                <div className="text-gray-500 text-center py-16 italic font-mono text-[10px]">Connecting to active stream...</div>
               ) : (
-                logs.map((log, index) => (
-                  <div key={index} className="border-l-2 border-indigo-200 pl-2 leading-relaxed">
-                    {log}
-                  </div>
-                ))
+                logs.map((log, index) => {
+                  let logColor = 'text-gray-400';
+                  if (log.includes('[System]')) {
+                    logColor = 'text-indigo-400 font-semibold';
+                  } else if (log.includes('ping')) {
+                    logColor = 'text-emerald-400';
+                  } else if (log.includes('disconnect') || log.includes('error')) {
+                    logColor = 'text-rose-400';
+                  }
+                  return (
+                    <div key={index} className="terminal-line">
+                      <span className="terminal-timestamp">[{new Date().toLocaleTimeString()}]</span>
+                      <span className={logColor}>{log.replace(/^\[.*?\]\s*/, '')}</span>
+                    </div>
+                  );
+                })
               )}
             </div>
           </div>
         </div>
 
-        {/* Right Side: Map & Table Grid */}
+        {/* Right Side Map & Active Deliveries Panel */}
         <div className="lg:col-span-3 flex flex-col space-y-6">
           
           {/* Map Container */}
-          <div className="h-[450px] relative rounded-xl overflow-hidden border border-[#EAE6DF] bg-white shadow-[0_2px_8px_rgba(0,0,0,0.04)]">
+          <div className="h-[480px] relative rounded-xl overflow-hidden border border-[#ECEAE5] bg-white shadow-[0_1px_3px_rgba(0,0,0,0.02)]">
             <MapContainer center={[12.9716, 77.5946]} zoom={13} className="w-full h-full">
-              {/* Light Map Tiles to match Cream aesthetic */}
               <TileLayer
                 attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'
                 url="https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png"
               />
               
-              {/* Selected Route Polyline Overlay */}
               {selectedDelivery && (
                 <>
                   <Marker position={[selectedDelivery.pickup_lat, selectedDelivery.pickup_lng]} icon={shopIcon}>
                     <Popup>
                       <div className="p-1 font-sans">
-                        <span className="font-bold text-xs block text-indigo-600">Pickup Location</span>
+                        <span className="font-bold text-xs block text-indigo-650">Pickup (Warehouse)</span>
                         <span className="text-[10px] text-gray-500">Order #{selectedDelivery.id}</span>
                       </div>
                     </Popup>
@@ -475,47 +486,44 @@ const Fleet: React.FC = () => {
                   <Marker position={[selectedDelivery.dropoff_lat, selectedDelivery.dropoff_lng]} icon={dropoffIcon}>
                     <Popup>
                       <div className="p-1 font-sans">
-                        <span className="font-bold text-xs block text-rose-600">Dropoff Destination</span>
+                        <span className="font-bold text-xs block text-rose-600">Dropoff (Destination)</span>
                         <span className="text-[10px] text-gray-500">Order #{selectedDelivery.id}</span>
                       </div>
                     </Popup>
                   </Marker>
-
-                  {/* Draw Geometry Path if we have it */}
+                  
                   {routeGeometry && (
                     <Polyline 
                       positions={routeGeometry} 
                       color="#4f46e5" 
-                      weight={4}
+                      weight={3.5}
                       opacity={0.8}
-                      dashArray="5, 10"
+                      dashArray="4, 8"
                     />
                   )}
 
-                  {/* If no route geometry yet, draw a simple connecting line */}
                   {!routeGeometry && (
                     <Polyline 
                       positions={[
                         [selectedDelivery.pickup_lat, selectedDelivery.pickup_lng],
                         [selectedDelivery.dropoff_lat, selectedDelivery.dropoff_lng]
                       ]} 
-                      color="#a855f7" 
+                      color="#6366f1" 
                       weight={3}
-                      opacity={0.6}
+                      opacity={0.5}
                     />
                   )}
                 </>
               )}
 
-              {/* Render all active driver positions */}
               {driverList.map((driver) => (
                 <Marker key={driver.id} position={[driver.lat, driver.lng]} icon={driverIcon}>
                   <Popup>
                     <div className="p-1 font-sans text-xs">
-                      <span className="font-bold block text-emerald-600">{driver.name}</span>
-                      <span className="text-[10px] block text-gray-500">Last Ping: {driver.lastPing}</span>
+                      <span className="font-bold block text-gray-900">{driver.name}</span>
+                      <span className="text-[10px] block text-gray-400">Telemetry: {driver.lastPing}</span>
                       {driver.deliveryId && (
-                        <span className="mt-1 block px-1.5 py-0.5 bg-indigo-50 border border-indigo-150 rounded text-indigo-700 font-semibold text-[9px]">
+                        <span className="mt-1 inline-flex px-1.5 py-0.5 bg-indigo-50 border border-indigo-100 rounded text-indigo-750 font-semibold text-[9px]">
                           Carrying Order #{driver.deliveryId}
                         </span>
                       )}
@@ -530,70 +538,79 @@ const Fleet: React.FC = () => {
             </MapContainer>
           </div>
 
-          {/* Recent Deliveries & Details List */}
-          <div className="p-5 bg-white border border-[#EAE6DF] rounded-xl shadow-[0_1px_3px_rgba(0,0,0,0.05)]">
-            <div className="flex justify-between items-center pb-3 border-b border-[#EAE6DF] mb-4">
-              <h2 className="text-sm font-semibold text-[#111827]">Recent Deliveries Pipeline</h2>
+          {/* Active Deliveries Table */}
+          <div className="premium-card">
+            <div className="flex justify-between items-center pb-3 border-b border-[#ECEAE5] mb-4">
+              <h2 className="text-xs font-semibold text-gray-900 uppercase tracking-wider">Active Pipeline</h2>
               {selectedDeliveryId && (
                 <button 
                   onClick={() => setSelectedDeliveryId(null)}
-                  className="text-xs text-[#6B7280] hover:text-[#111827] font-medium border border-[#EAE6DF] px-2.5 py-1 rounded-md bg-[#FAF8F5]"
+                  className="btn-premium-secondary text-[10px] px-2.5 py-1 uppercase tracking-wider font-semibold cursor-pointer"
                 >
-                  Clear Map Selection
+                  Clear Map
                 </button>
               )}
             </div>
             
-            <div className="overflow-x-auto">
-              <table className="w-full text-left text-xs">
+            <div className="premium-table-container">
+              <table className="premium-table">
                 <thead>
-                  <tr className="border-b border-[#EAE6DF] text-[#6B7280] font-semibold">
-                    <th className="py-2.5 px-3">Order ID</th>
-                    <th className="py-2.5 px-3">Status</th>
-                    <th className="py-2.5 px-3">Driver Assigned</th>
-                    <th className="py-2.5 px-3 text-right">Actions</th>
+                  <tr>
+                    <th>Order ID</th>
+                    <th>Status</th>
+                    <th>Courier</th>
+                    <th className="text-right">Actions</th>
                   </tr>
                 </thead>
-                <tbody className="divide-y divide-[#EAE6DF]">
+                <tbody>
                   {deliveries.length === 0 ? (
                     <tr>
-                      <td colSpan={4} className="py-8 text-center text-[#9CA3AF]">
-                        No deliveries registered in database. Use the dispatch form to create one.
+                      <td colSpan={4} className="py-10 text-center text-gray-400 italic">
+                        No active dispatch records found.
                       </td>
                     </tr>
                   ) : (
                     deliveries.map((order) => {
                       const isSelected = order.id === selectedDeliveryId;
                       return (
-                        <tr key={order.id} className={`hover:bg-[#FAF8F5] transition-colors ${isSelected ? 'bg-indigo-50/40 hover:bg-indigo-50/50' : ''}`}>
-                          <td className="py-3 px-3 font-semibold text-[#111827]">#{order.id}</td>
-                          <td className="py-3 px-3">
-                            <span className={`inline-flex px-2 py-0.5 rounded text-[10px] font-bold ${
-                              order.status === 'DELIVERED' ? 'bg-emerald-50 text-emerald-700 border border-emerald-200' :
-                              order.status === 'DRIVER_PENDING' ? 'bg-amber-50 text-amber-700 border border-amber-200' :
-                              order.status === 'ASSIGNED' ? 'bg-indigo-50 text-indigo-700 border border-indigo-200' :
-                              order.status === 'IN_TRANSIT' ? 'bg-purple-50 text-purple-700 border border-purple-200' :
-                              order.status === 'CANCELLED' ? 'bg-rose-50 text-rose-700 border border-rose-200' :
-                              'bg-gray-100 text-gray-700 border border-gray-200'
+                        <tr 
+                          key={order.id} 
+                          className={`premium-table-row ${
+                            isSelected ? 'bg-indigo-50/20' : ''
+                          }`}
+                        >
+                          <td className="font-semibold text-gray-900 font-mono">#{order.id}</td>
+                          <td>
+                            <span className={`badge-premium ${
+                              order.status === 'DELIVERED' ? 'badge-emerald' :
+                              order.status === 'DRIVER_PENDING' ? 'badge-amber' :
+                              order.status === 'ASSIGNED' ? 'badge-indigo' :
+                              order.status === 'IN_TRANSIT' ? 'badge-indigo animate-pulse' :
+                              order.status === 'CANCELLED' ? 'badge-rose' :
+                              'badge-gray'
                             }`}>
                               {order.status}
                             </span>
                           </td>
-                          <td className="py-3 px-3 text-[#4B5563] font-medium">
-                            {order.driver_id ? `Courier #${order.driver_id}` : 'Pending Assignment'}
+                          <td className="text-gray-650 font-medium">
+                            {order.driver_id ? (
+                              <span className="font-mono text-gray-900">Courier #{order.driver_id}</span>
+                            ) : (
+                              <span className="text-gray-400 italic font-normal">Pending Assignment</span>
+                            )}
                           </td>
-                          <td className="py-3 px-3 text-right space-x-3">
+                          <td className="text-right space-x-3">
                             <button
                               onClick={() => setSelectedDeliveryId(order.id)}
-                              className="text-indigo-600 hover:text-indigo-800 font-semibold cursor-pointer"
+                              className="text-indigo-650 hover:text-indigo-850 font-semibold cursor-pointer transition-colors"
                             >
-                              Show on Map
+                              Show
                             </button>
                             <Link
                               to={`/track/${order.id}`}
-                              className="text-[#6B7280] hover:text-[#111827] font-semibold"
+                              className="text-gray-500 hover:text-gray-900 font-medium transition-colors"
                             >
-                              Customer Link →
+                              Track →
                             </Link>
                           </td>
                         </tr>
