@@ -58,6 +58,26 @@ async def lifespan(app: FastAPI):
     async with engine.begin() as conn:
         await conn.run_sync(Base.metadata.create_all)
         
+    # Auto-seed default tenant and drivers if database is empty
+    from sqlalchemy import select
+    from app.db.session import AsyncSessionLocal
+    from app.models.tenant import Tenant
+    from app.models.driver import Driver, DriverStatus
+
+    async with AsyncSessionLocal() as db:
+        tenant_res = await db.execute(select(Tenant).limit(1))
+        if not tenant_res.scalars().first():
+            # Seed default tenant with key 'test_api_key_123'
+            default_tenant = Tenant(name="Default Tenant A", api_key="test_api_key_123")
+            db.add(default_tenant)
+            
+            # Seed default drivers
+            db.add(Driver(name="Driver 1", phone="+1111111111", status=DriverStatus.OFFLINE, rating=4.9, is_available=True))
+            db.add(Driver(name="Driver 2", phone="+2222222222", status=DriverStatus.OFFLINE, rating=4.8, is_available=True))
+            db.add(Driver(name="Driver 3", phone="+3333333333", status=DriverStatus.OFFLINE, rating=4.7, is_available=True))
+            await db.commit()
+            print("Auto-seeded default Tenant A (key: 'test_api_key_123') and 3 drivers.")
+        
     # Start ghost driver cleanup task
     cleanup_task = asyncio.create_task(ghost_driver_cleanup_loop())
     
@@ -83,7 +103,7 @@ def create_app() -> FastAPI:
     app.add_middleware(
         CORSMiddleware,
         allow_origins=["*"],
-        allow_credentials=True,
+        allow_credentials=False,
         allow_methods=["*"],
         allow_headers=["*"],
     )
