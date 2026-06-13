@@ -24,9 +24,12 @@ COPY . .
 # Expose FastAPI default port
 EXPOSE 8000
 
+# Make startup script executable
+RUN chmod +x start.sh
+
 # Run with non-root security user
 RUN useradd -u 8888 appuser && chown -R appuser:appuser /app
 USER appuser
 
-# Default command starts Uvicorn
-CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8000"]
+# Default command starts FastAPI and Celery in the background
+CMD ["./start.sh"]
