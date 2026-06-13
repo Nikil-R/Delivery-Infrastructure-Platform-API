@@ -6,8 +6,16 @@ connect_args = {}
 if settings.DATABASE_URL.startswith("sqlite"):
     connect_args = {"check_same_thread": False}
 
+db_url = settings.DATABASE_URL
+# Defensive programming: Strip pgbouncer parameter to prevent asyncpg crash
+if "pgbouncer=" in db_url:
+    from urllib.parse import urlparse, urlunparse, parse_qsl, urlencode
+    parsed = urlparse(db_url)
+    qsl = [(k, v) for k, v in parse_qsl(parsed.query) if k != "pgbouncer"]
+    db_url = urlunparse(parsed._replace(query=urlencode(qsl)))
+
 engine = create_async_engine(
-    settings.DATABASE_URL,
+    db_url,
     connect_args=connect_args,
     pool_pre_ping=True,
 )
