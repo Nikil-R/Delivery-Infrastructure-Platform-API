@@ -201,6 +201,7 @@ We executed rigorous load testing simulating realistic multi-role activity (merc
 
 ---
 
+<a id="sandbox-user-guide-step-by-step"></a>
 ## 8. Sandbox User Guide (Step-by-Step)
 
 Follow these steps to run a complete, end-to-end delivery simulation on the live platform:
