@@ -7,8 +7,8 @@
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-v15-4169E1.svg?style=flat&logo=postgresql&logoColor=white)](https://www.postgresql.org)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat)](https://opensource.org/licenses/MIT)
 
-**Live Demo Dashboard**: [https://delivery-infrastructure-platform-api.vercel.app/](https://delivery-infrastructure-platform-api.vercel.app/)  
-**API Swagger Documentation**: [https://delivery-infrastructure-platform-api.onrender.com/docs](https://delivery-infrastructure-platform-api.onrender.com/docs)  
+**Project Live Link**: [https://delivery-infrastructure-platform-ap.vercel.app/](https://delivery-infrastructure-platform-ap.vercel.app/)  
+**Interactive API Specs**: [https://delivery-infrastructure-platform-api.onrender.com/docs](https://delivery-infrastructure-platform-api.onrender.com/docs)  
 
 > **Note on Deployment Strategy**: To optimize hosting costs and prevent continuous cloud expenditure, the live sandbox demonstration is hosted on a serverless and containerized free-tier stack (Vercel for the frontend React SPA, Render for the backend FastAPI container, Supabase for Postgres storage, and Upstash for Redis caching). The enterprise production-grade AWS multi-instance architecture layout is outlined in Section 9 below.
 

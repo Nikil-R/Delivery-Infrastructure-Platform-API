@@ -33,7 +33,7 @@ const Landing: React.FC = () => {
         <div className="text-center max-w-3xl mb-14">
           <h1 className="text-4xl md:text-5xl font-bold tracking-tight mb-4 text-[#1F2937] leading-tight">
             Real-Time Logistics{' '}
-            <span className="text-indigo-600">
+            <span className="text-red-600">
               Infrastructure
             </span>
           </h1>

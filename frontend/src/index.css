@@ -7,6 +7,19 @@
 @theme {
   --font-sans: 'Inter', 'Geist', ui-sans-serif, system-ui, -apple-system, sans-serif;
   --font-mono: 'Geist Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+
+  --color-indigo-50: #FFF5F5;
+  --color-indigo-100: #FFE3E3;
+  --color-indigo-150: #FFC9C9;
+  --color-indigo-200: #FFA3A3;
+  --color-indigo-250: #FF7575;
+  --color-indigo-600: #ff0505;
+  --color-indigo-650: #e60505;
+  --color-indigo-700: #d90404;
+  --color-indigo-750: #b80404;
+  --color-indigo-800: #9c0303;
+  --color-indigo-850: #800303;
+  --color-indigo-900: #660202;
 }
 
 /* Leaflet map styles */
@@ -25,7 +38,7 @@ html, body, #root {
   padding: 0;
   width: 100%;
   height: 100%;
-  background-color: #FBF9F6;
+  background-color: #FAF4F4;
   font-family: var(--font-sans);
   color: #1F2937;
   -webkit-font-smoothing: antialiased;
@@ -41,39 +54,39 @@ html, body, #root {
   background: transparent;
 }
 ::-webkit-scrollbar-thumb {
-  background: #ECEAE5;
+  background: #EDE5E5;
   border-radius: 3px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #D5D2C9;
+  background: #DBCFCF;
 }
 
 /* Leaflet visual theme overrides */
 .leaflet-bar {
-  border: 1px solid #ECEAE5 !important;
+  border: 1px solid #EFE4E4 !important;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.02) !important;
   border-radius: 8px !important;
   overflow: hidden;
 }
 .leaflet-bar a {
-  background-color: #ffffff !important;
-  border-bottom: 1px solid #ECEAE5 !important;
+  background-color: #FFFDFD !important;
+  border-bottom: 1px solid #EFE4E4 !important;
   color: #4B5563 !important;
   transition: all 0.15s ease;
 }
 .leaflet-bar a:hover {
-  background-color: #FAF8F5 !important;
+  background-color: #FDF8F8 !important;
   color: #1F2937 !important;
 }
 .leaflet-popup-content-wrapper {
-  border: 1px solid #ECEAE5 !important;
+  border: 1px solid #EFE4E4 !important;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04) !important;
   border-radius: 8px !important;
   padding: 2px !important;
 }
 .leaflet-popup-tip {
-  background: #ffffff !important;
-  border: 1px solid #ECEAE5 !important;
+  background: #FFFDFD !important;
+  border: 1px solid #EFE4E4 !important;
 }
 
 /* ==========================================================================
@@ -83,17 +96,43 @@ html, body, #root {
 /* Main Layout Wrapper */
 .premium-app {
   min-h: 100vh;
-  background-color: #FBF9F6;
+  background-color: #FAF4F4;
   color: #1F2937;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Background glowing blobs */
+.premium-app::before,
+.premium-app::after {
+  content: "";
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(255, 5, 5, 0.05) 0%, rgba(255, 5, 5, 0) 70%);
+  filter: blur(80px);
+  pointer-events: none;
+  z-index: 0;
+}
+
+.premium-app::before {
+  top: -100px;
+  right: -100px;
+}
+
+.premium-app::after {
+  bottom: -100px;
+  left: -100px;
 }
 
 /* Header & Navigation */
 .premium-header {
-  border-bottom: 1px solid #ECEAE5;
-  background-color: rgba(255, 255, 255, 0.85);
+  border-bottom: 1px solid #EFE4E4;
+  background-color: rgba(255, 253, 253, 0.85);
   backdrop-filter: blur(12px);
   position: sticky;
   top: 0;
@@ -103,16 +142,16 @@ html, body, #root {
 
 /* Footer */
 .premium-footer {
-  border-top: 1px solid #ECEAE5;
-  background-color: #ffffff;
+  border-top: 1px solid #EFE4E4;
+  background-color: #FFFDFD;
   padding: 1.5rem 0;
   margin-top: auto;
 }
 
 /* Custom Cards */
 .premium-card {
-  background-color: #ffffff;
-  border: 1px solid #ECEAE5;
+  background-color: #FFFDFD;
+  border: 1px solid #EFE4E4;
   border-radius: 0.75rem;
   padding: 1.5rem;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.02), 0 1px 2px rgba(0, 0, 0, 0.04);
@@ -123,7 +162,7 @@ html, body, #root {
   cursor: pointer;
 }
 .premium-card-interactive:hover {
-  border-color: #C0BBB2;
+  border-color: #D6C2C2;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.03), 0 2px 4px rgba(0, 0, 0, 0.02);
   transform: translateY(-2px);
 }
@@ -165,8 +204,8 @@ html, body, #root {
 .premium-input {
   width: 100%;
   padding: 0.5rem 0.75rem;
-  background-color: #FAF8F5;
-  border: 1px solid #ECEAE5;
+  background-color: #FBF6F6;
+  border: 1px solid #EFE4E4;
   border-radius: 0.5rem;
   font-size: 0.8125rem;
   color: #1F2937;
@@ -175,8 +214,8 @@ html, body, #root {
 .premium-input:focus {
   outline: none;
   background-color: #ffffff;
-  border-color: #6366F1;
-  box-shadow: 0 0 0 2px rgba(99, 102, 241, 0.15);
+  border-color: #ff0505;
+  box-shadow: 0 0 0 2px rgba(255, 5, 5, 0.15);
 }
 
 /* Select element specific */
@@ -206,19 +245,19 @@ select.premium-input {
   align-items: center;
   justify-content: center;
   padding: 0.5rem 1rem;
-  background-color: #4F46E5;
+  background-color: #ff0505;
   color: #ffffff;
   font-size: 0.8125rem;
   font-weight: 500;
   border-radius: 0.5rem;
   border: none;
   cursor: pointer;
-  box-shadow: 0 1px 2px rgba(79, 70, 229, 0.15);
+  box-shadow: 0 1px 2px rgba(255, 5, 5, 0.15);
   transition: all 0.15s cubic-bezier(0.4, 0, 0.2, 1);
 }
 .btn-premium-primary:hover {
-  background-color: #4338CA;
-  box-shadow: 0 4px 12px rgba(79, 70, 229, 0.25);
+  background-color: #d90404;
+  box-shadow: 0 4px 12px rgba(255, 5, 5, 0.25);
   transform: translateY(-0.5px);
 }
 .btn-premium-primary:active {
@@ -230,18 +269,18 @@ select.premium-input {
   align-items: center;
   justify-content: center;
   padding: 0.5rem 1rem;
-  background-color: #FAF8F5;
+  background-color: #FBF6F6;
   color: #1F2937;
   font-size: 0.8125rem;
   font-weight: 500;
   border-radius: 0.5rem;
-  border: 1px solid #ECEAE5;
+  border: 1px solid #EFE4E4;
   cursor: pointer;
   transition: all 0.15s ease;
 }
 .btn-premium-secondary:hover {
-  background-color: #F3F1EC;
-  border-color: #D5D2C9;
+  background-color: #F3EBEB;
+  border-color: #D6C2C2;
 }
 
 .btn-premium-danger {
@@ -291,9 +330,9 @@ select.premium-input {
   border: 1px solid #FEE2E2;
 }
 .badge-indigo {
-  background-color: #EEF2FF;
-  color: #4338CA;
-  border: 1px solid #E0E7FF;
+  background-color: var(--color-indigo-50);
+  color: var(--color-indigo-700);
+  border: 1px solid var(--color-indigo-100);
 }
 .badge-gray {
   background-color: #F3F4F6;
@@ -304,9 +343,9 @@ select.premium-input {
 /* Data Tables */
 .premium-table-container {
   overflow-x: auto;
-  border: 1px solid #ECEAE5;
+  border: 1px solid #EFE4E4;
   border-radius: 0.75rem;
-  background-color: #ffffff;
+  background-color: #FFFDFD;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.01);
 }
 
@@ -318,8 +357,8 @@ select.premium-input {
 }
 
 .premium-table th {
-  background-color: #FAF8F5;
-  border-bottom: 1px solid #ECEAE5;
+  background-color: #FAF4F4;
+  border-bottom: 1px solid #EFE4E4;
   padding: 0.75rem 1rem;
   font-weight: 600;
   font-size: 0.75rem;
@@ -330,7 +369,7 @@ select.premium-input {
 
 .premium-table td {
   padding: 0.75rem 1rem;
-  border-bottom: 1px solid #ECEAE5;
+  border-bottom: 1px solid #EFE4E4;
   color: #1F2937;
 }
 
@@ -342,7 +381,7 @@ select.premium-input {
   transition: background-color 0.15s ease;
 }
 .premium-table-row:hover {
-  background-color: #FAF8F5;
+  background-color: #FFF9F9;
 }
 
 /* Terminal WebSocket Log Style */
@@ -383,7 +422,7 @@ select.premium-input {
   top: 8px;
   bottom: 8px;
   width: 2px;
-  background-color: #ECEAE5;
+  background-color: #EFE4E4;
   z-index: 0;
 }
 
@@ -398,8 +437,8 @@ select.premium-input {
   width: 24px;
   height: 24px;
   border-radius: 50%;
-  background-color: #ffffff;
-  border: 2px solid #ECEAE5;
+  background-color: #FFFDFD;
+  border: 2px solid #EFE4E4;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -411,15 +450,15 @@ select.premium-input {
 }
 
 .stepper-item.completed .stepper-indicator {
-  background-color: #4F46E5;
-  border-color: #4F46E5;
+  background-color: #ff0505;
+  border-color: #ff0505;
   color: #ffffff;
 }
 
 .stepper-item.active .stepper-indicator {
-  border-color: #4F46E5;
-  color: #4F46E5;
-  box-shadow: 0 0 0 4px rgba(79, 70, 229, 0.15);
+  border-color: #ff0505;
+  color: #ff0505;
+  box-shadow: 0 0 0 4px rgba(255, 5, 5, 0.15);
 }
 
 .stepper-content {
