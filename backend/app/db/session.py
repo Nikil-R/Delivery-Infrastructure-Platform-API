@@ -5,6 +5,9 @@ from app.core.config import settings
 connect_args = {}
 if settings.DATABASE_URL.startswith("sqlite"):
     connect_args = {"check_same_thread": False}
+else:
+    # Disable statement cache for PgBouncer/Supabase transaction pooling compatibility
+    connect_args = {"statement_cache_size": 0}
 
 db_url = settings.DATABASE_URL
 # Defensive programming: Strip pgbouncer parameter to prevent asyncpg crash
