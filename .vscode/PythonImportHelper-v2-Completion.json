@@ -1,0 +1,3255 @@
+[
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "WebSocket",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "WebSocketDisconnect",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Request",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Header",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Request",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Request",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Response",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "WebSocket",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "create_async_engine",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "async_sessionmaker",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "create_async_engine",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "async_sessionmaker",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "select",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "func",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "select",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "select",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "select",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Float",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "DateTime",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "ForeignKey",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "func",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "ForeignKey",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "DateTime",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "func",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Enum",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "DateTime",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "func",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Enum",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Float",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Boolean",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "DateTime",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "ForeignKey",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Enum",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "func",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "ForeignKey",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "DateTime",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "func",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Enum",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Float",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "DateTime",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "func",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "JSON",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "ForeignKey",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "DateTime",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "func",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Enum",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Callable",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Set",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncGenerator",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "importPath": "app.db.session",
+        "description": "app.db.session",
+        "isExtraImport": true,
+        "detail": "app.db.session",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "importPath": "app.db.session",
+        "description": "app.db.session",
+        "isExtraImport": true,
+        "detail": "app.db.session",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "importPath": "app.db.session",
+        "description": "app.db.session",
+        "isExtraImport": true,
+        "detail": "app.db.session",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "importPath": "app.db.session",
+        "description": "app.db.session",
+        "isExtraImport": true,
+        "detail": "app.db.session",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSessionLocal",
+        "importPath": "app.db.session",
+        "description": "app.db.session",
+        "isExtraImport": true,
+        "detail": "app.db.session",
+        "documentation": {}
+    },
+    {
+        "label": "engine",
+        "importPath": "app.db.session",
+        "description": "app.db.session",
+        "isExtraImport": true,
+        "detail": "app.db.session",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "importPath": "app.db.session",
+        "description": "app.db.session",
+        "isExtraImport": true,
+        "detail": "app.db.session",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSessionLocal",
+        "importPath": "app.db.session",
+        "description": "app.db.session",
+        "isExtraImport": true,
+        "detail": "app.db.session",
+        "documentation": {}
+    },
+    {
+        "label": "engine",
+        "importPath": "app.db.session",
+        "description": "app.db.session",
+        "isExtraImport": true,
+        "detail": "app.db.session",
+        "documentation": {}
+    },
+    {
+        "label": "Tenant",
+        "importPath": "app.models.tenant",
+        "description": "app.models.tenant",
+        "isExtraImport": true,
+        "detail": "app.models.tenant",
+        "documentation": {}
+    },
+    {
+        "label": "Tenant",
+        "importPath": "app.models.tenant",
+        "description": "app.models.tenant",
+        "isExtraImport": true,
+        "detail": "app.models.tenant",
+        "documentation": {}
+    },
+    {
+        "label": "Tenant",
+        "importPath": "app.models.tenant",
+        "description": "app.models.tenant",
+        "isExtraImport": true,
+        "detail": "app.models.tenant",
+        "documentation": {}
+    },
+    {
+        "label": "Tenant",
+        "importPath": "app.models.tenant",
+        "description": "app.models.tenant",
+        "isExtraImport": true,
+        "detail": "app.models.tenant",
+        "documentation": {}
+    },
+    {
+        "label": "Tenant",
+        "importPath": "app.models.tenant",
+        "description": "app.models.tenant",
+        "isExtraImport": true,
+        "detail": "app.models.tenant",
+        "documentation": {}
+    },
+    {
+        "label": "Tenant",
+        "importPath": "app.models.tenant",
+        "description": "app.models.tenant",
+        "isExtraImport": true,
+        "detail": "app.models.tenant",
+        "documentation": {}
+    },
+    {
+        "label": "Driver",
+        "importPath": "app.models.driver",
+        "description": "app.models.driver",
+        "isExtraImport": true,
+        "detail": "app.models.driver",
+        "documentation": {}
+    },
+    {
+        "label": "DriverStatus",
+        "importPath": "app.models.driver",
+        "description": "app.models.driver",
+        "isExtraImport": true,
+        "detail": "app.models.driver",
+        "documentation": {}
+    },
+    {
+        "label": "Driver",
+        "importPath": "app.models.driver",
+        "description": "app.models.driver",
+        "isExtraImport": true,
+        "detail": "app.models.driver",
+        "documentation": {}
+    },
+    {
+        "label": "DriverStatus",
+        "importPath": "app.models.driver",
+        "description": "app.models.driver",
+        "isExtraImport": true,
+        "detail": "app.models.driver",
+        "documentation": {}
+    },
+    {
+        "label": "Driver",
+        "importPath": "app.models.driver",
+        "description": "app.models.driver",
+        "isExtraImport": true,
+        "detail": "app.models.driver",
+        "documentation": {}
+    },
+    {
+        "label": "DriverStatus",
+        "importPath": "app.models.driver",
+        "description": "app.models.driver",
+        "isExtraImport": true,
+        "detail": "app.models.driver",
+        "documentation": {}
+    },
+    {
+        "label": "DriverStatus",
+        "importPath": "app.models.driver",
+        "description": "app.models.driver",
+        "isExtraImport": true,
+        "detail": "app.models.driver",
+        "documentation": {}
+    },
+    {
+        "label": "Driver",
+        "importPath": "app.models.driver",
+        "description": "app.models.driver",
+        "isExtraImport": true,
+        "detail": "app.models.driver",
+        "documentation": {}
+    },
+    {
+        "label": "DriverStatus",
+        "importPath": "app.models.driver",
+        "description": "app.models.driver",
+        "isExtraImport": true,
+        "detail": "app.models.driver",
+        "documentation": {}
+    },
+    {
+        "label": "Order",
+        "importPath": "app.models.order",
+        "description": "app.models.order",
+        "isExtraImport": true,
+        "detail": "app.models.order",
+        "documentation": {}
+    },
+    {
+        "label": "OrderStatus",
+        "importPath": "app.models.order",
+        "description": "app.models.order",
+        "isExtraImport": true,
+        "detail": "app.models.order",
+        "documentation": {}
+    },
+    {
+        "label": "Order",
+        "importPath": "app.models.order",
+        "description": "app.models.order",
+        "isExtraImport": true,
+        "detail": "app.models.order",
+        "documentation": {}
+    },
+    {
+        "label": "OrderStatus",
+        "importPath": "app.models.order",
+        "description": "app.models.order",
+        "isExtraImport": true,
+        "detail": "app.models.order",
+        "documentation": {}
+    },
+    {
+        "label": "Order",
+        "importPath": "app.models.order",
+        "description": "app.models.order",
+        "isExtraImport": true,
+        "detail": "app.models.order",
+        "documentation": {}
+    },
+    {
+        "label": "OrderStatus",
+        "importPath": "app.models.order",
+        "description": "app.models.order",
+        "isExtraImport": true,
+        "detail": "app.models.order",
+        "documentation": {}
+    },
+    {
+        "label": "OrderStatus",
+        "importPath": "app.models.order",
+        "description": "app.models.order",
+        "isExtraImport": true,
+        "detail": "app.models.order",
+        "documentation": {}
+    },
+    {
+        "label": "OrderStatus",
+        "importPath": "app.models.order",
+        "description": "app.models.order",
+        "isExtraImport": true,
+        "detail": "app.models.order",
+        "documentation": {}
+    },
+    {
+        "label": "Order",
+        "importPath": "app.models.order",
+        "description": "app.models.order",
+        "isExtraImport": true,
+        "detail": "app.models.order",
+        "documentation": {}
+    },
+    {
+        "label": "OrderStatus",
+        "importPath": "app.models.order",
+        "description": "app.models.order",
+        "isExtraImport": true,
+        "detail": "app.models.order",
+        "documentation": {}
+    },
+    {
+        "label": "Order",
+        "importPath": "app.models.order",
+        "description": "app.models.order",
+        "isExtraImport": true,
+        "detail": "app.models.order",
+        "documentation": {}
+    },
+    {
+        "label": "OrderStatus",
+        "importPath": "app.models.order",
+        "description": "app.models.order",
+        "isExtraImport": true,
+        "detail": "app.models.order",
+        "documentation": {}
+    },
+    {
+        "label": "Order",
+        "importPath": "app.models.order",
+        "description": "app.models.order",
+        "isExtraImport": true,
+        "detail": "app.models.order",
+        "documentation": {}
+    },
+    {
+        "label": "OrderStatus",
+        "importPath": "app.models.order",
+        "description": "app.models.order",
+        "isExtraImport": true,
+        "detail": "app.models.order",
+        "documentation": {}
+    },
+    {
+        "label": "Order",
+        "importPath": "app.models.order",
+        "description": "app.models.order",
+        "isExtraImport": true,
+        "detail": "app.models.order",
+        "documentation": {}
+    },
+    {
+        "label": "OrderStatus",
+        "importPath": "app.models.order",
+        "description": "app.models.order",
+        "isExtraImport": true,
+        "detail": "app.models.order",
+        "documentation": {}
+    },
+    {
+        "label": "OrderStatus",
+        "importPath": "app.models.order",
+        "description": "app.models.order",
+        "isExtraImport": true,
+        "detail": "app.models.order",
+        "documentation": {}
+    },
+    {
+        "label": "OrderStatus",
+        "importPath": "app.models.order",
+        "description": "app.models.order",
+        "isExtraImport": true,
+        "detail": "app.models.order",
+        "documentation": {}
+    },
+    {
+        "label": "OrderStatus",
+        "importPath": "app.models.order",
+        "description": "app.models.order",
+        "isExtraImport": true,
+        "detail": "app.models.order",
+        "documentation": {}
+    },
+    {
+        "label": "Order",
+        "importPath": "app.models.order",
+        "description": "app.models.order",
+        "isExtraImport": true,
+        "detail": "app.models.order",
+        "documentation": {}
+    },
+    {
+        "label": "TripAnalytics",
+        "importPath": "app.models.analytics",
+        "description": "app.models.analytics",
+        "isExtraImport": true,
+        "detail": "app.models.analytics",
+        "documentation": {}
+    },
+    {
+        "label": "DriverAnalytics",
+        "importPath": "app.models.analytics",
+        "description": "app.models.analytics",
+        "isExtraImport": true,
+        "detail": "app.models.analytics",
+        "documentation": {}
+    },
+    {
+        "label": "TenantAnalytics",
+        "importPath": "app.models.analytics",
+        "description": "app.models.analytics",
+        "isExtraImport": true,
+        "detail": "app.models.analytics",
+        "documentation": {}
+    },
+    {
+        "label": "TenantUsageHourly",
+        "importPath": "app.models.analytics",
+        "description": "app.models.analytics",
+        "isExtraImport": true,
+        "detail": "app.models.analytics",
+        "documentation": {}
+    },
+    {
+        "label": "get_current_tenant",
+        "importPath": "app.dependencies.auth",
+        "description": "app.dependencies.auth",
+        "isExtraImport": true,
+        "detail": "app.dependencies.auth",
+        "documentation": {}
+    },
+    {
+        "label": "get_current_tenant",
+        "importPath": "app.dependencies.auth",
+        "description": "app.dependencies.auth",
+        "isExtraImport": true,
+        "detail": "app.dependencies.auth",
+        "documentation": {}
+    },
+    {
+        "label": "redis_client",
+        "importPath": "app.db.redis",
+        "description": "app.db.redis",
+        "isExtraImport": true,
+        "detail": "app.db.redis",
+        "documentation": {}
+    },
+    {
+        "label": "redis_client",
+        "importPath": "app.db.redis",
+        "description": "app.db.redis",
+        "isExtraImport": true,
+        "detail": "app.db.redis",
+        "documentation": {}
+    },
+    {
+        "label": "redis_client",
+        "importPath": "app.db.redis",
+        "description": "app.db.redis",
+        "isExtraImport": true,
+        "detail": "app.db.redis",
+        "documentation": {}
+    },
+    {
+        "label": "redis_client",
+        "importPath": "app.db.redis",
+        "description": "app.db.redis",
+        "isExtraImport": true,
+        "detail": "app.db.redis",
+        "documentation": {}
+    },
+    {
+        "label": "redis_client",
+        "importPath": "app.db.redis",
+        "description": "app.db.redis",
+        "isExtraImport": true,
+        "detail": "app.db.redis",
+        "documentation": {}
+    },
+    {
+        "label": "redis_client",
+        "importPath": "app.db.redis",
+        "description": "app.db.redis",
+        "isExtraImport": true,
+        "detail": "app.db.redis",
+        "documentation": {}
+    },
+    {
+        "label": "redis_client",
+        "importPath": "app.db.redis",
+        "description": "app.db.redis",
+        "isExtraImport": true,
+        "detail": "app.db.redis",
+        "documentation": {}
+    },
+    {
+        "label": "redis_client",
+        "importPath": "app.db.redis",
+        "description": "app.db.redis",
+        "isExtraImport": true,
+        "detail": "app.db.redis",
+        "documentation": {}
+    },
+    {
+        "label": "DeliveryCreate",
+        "importPath": "app.schemas.delivery",
+        "description": "app.schemas.delivery",
+        "isExtraImport": true,
+        "detail": "app.schemas.delivery",
+        "documentation": {}
+    },
+    {
+        "label": "DeliveryStatusUpdate",
+        "importPath": "app.schemas.delivery",
+        "description": "app.schemas.delivery",
+        "isExtraImport": true,
+        "detail": "app.schemas.delivery",
+        "documentation": {}
+    },
+    {
+        "label": "ManualAssignment",
+        "importPath": "app.schemas.delivery",
+        "description": "app.schemas.delivery",
+        "isExtraImport": true,
+        "detail": "app.schemas.delivery",
+        "documentation": {}
+    },
+    {
+        "label": "DeliveryResponse",
+        "importPath": "app.schemas.delivery",
+        "description": "app.schemas.delivery",
+        "isExtraImport": true,
+        "detail": "app.schemas.delivery",
+        "documentation": {}
+    },
+    {
+        "label": "AutoAssignmentRequest",
+        "importPath": "app.schemas.delivery",
+        "description": "app.schemas.delivery",
+        "isExtraImport": true,
+        "detail": "app.schemas.delivery",
+        "documentation": {}
+    },
+    {
+        "label": "DeliveryResponse",
+        "importPath": "app.schemas.delivery",
+        "description": "app.schemas.delivery",
+        "isExtraImport": true,
+        "detail": "app.schemas.delivery",
+        "documentation": {}
+    },
+    {
+        "label": "DeliveryCreate",
+        "importPath": "app.schemas.delivery",
+        "description": "app.schemas.delivery",
+        "isExtraImport": true,
+        "detail": "app.schemas.delivery",
+        "documentation": {}
+    },
+    {
+        "label": "DeliveryService",
+        "importPath": "app.services.delivery_service",
+        "description": "app.services.delivery_service",
+        "isExtraImport": true,
+        "detail": "app.services.delivery_service",
+        "documentation": {}
+    },
+    {
+        "label": "AssignmentService",
+        "importPath": "app.services.assignment_service",
+        "description": "app.services.assignment_service",
+        "isExtraImport": true,
+        "detail": "app.services.assignment_service",
+        "documentation": {}
+    },
+    {
+        "label": "DriverCreate",
+        "importPath": "app.schemas.driver",
+        "description": "app.schemas.driver",
+        "isExtraImport": true,
+        "detail": "app.schemas.driver",
+        "documentation": {}
+    },
+    {
+        "label": "DriverLocationUpdate",
+        "importPath": "app.schemas.driver",
+        "description": "app.schemas.driver",
+        "isExtraImport": true,
+        "detail": "app.schemas.driver",
+        "documentation": {}
+    },
+    {
+        "label": "DriverAvailabilityUpdate",
+        "importPath": "app.schemas.driver",
+        "description": "app.schemas.driver",
+        "isExtraImport": true,
+        "detail": "app.schemas.driver",
+        "documentation": {}
+    },
+    {
+        "label": "DriverResponse",
+        "importPath": "app.schemas.driver",
+        "description": "app.schemas.driver",
+        "isExtraImport": true,
+        "detail": "app.schemas.driver",
+        "documentation": {}
+    },
+    {
+        "label": "DriverCreate",
+        "importPath": "app.schemas.driver",
+        "description": "app.schemas.driver",
+        "isExtraImport": true,
+        "detail": "app.schemas.driver",
+        "documentation": {}
+    },
+    {
+        "label": "DriverLocationUpdate",
+        "importPath": "app.schemas.driver",
+        "description": "app.schemas.driver",
+        "isExtraImport": true,
+        "detail": "app.schemas.driver",
+        "documentation": {}
+    },
+    {
+        "label": "DriverService",
+        "importPath": "app.services.driver_service",
+        "description": "app.services.driver_service",
+        "isExtraImport": true,
+        "detail": "app.services.driver_service",
+        "documentation": {}
+    },
+    {
+        "label": "logging",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "logging",
+        "description": "logging",
+        "detail": "logging",
+        "documentation": {}
+    },
+    {
+        "label": "manager",
+        "importPath": "app.services.connection_manager",
+        "description": "app.services.connection_manager",
+        "isExtraImport": true,
+        "detail": "app.services.connection_manager",
+        "documentation": {}
+    },
+    {
+        "label": "WEBSOCKET_CONNECTIONS_ACTIVE",
+        "importPath": "app.middleware.metrics",
+        "description": "app.middleware.metrics",
+        "isExtraImport": true,
+        "detail": "app.middleware.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "ssl",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "ssl",
+        "description": "ssl",
+        "detail": "ssl",
+        "documentation": {}
+    },
+    {
+        "label": "Celery",
+        "importPath": "celery",
+        "description": "celery",
+        "isExtraImport": true,
+        "detail": "celery",
+        "documentation": {}
+    },
+    {
+        "label": "shared_task",
+        "importPath": "celery",
+        "description": "celery",
+        "isExtraImport": true,
+        "detail": "celery",
+        "documentation": {}
+    },
+    {
+        "label": "shared_task",
+        "importPath": "celery",
+        "description": "celery",
+        "isExtraImport": true,
+        "detail": "celery",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "app.core.config",
+        "description": "app.core.config",
+        "isExtraImport": true,
+        "detail": "app.core.config",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "app.core.config",
+        "description": "app.core.config",
+        "isExtraImport": true,
+        "detail": "app.core.config",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "app.core.config",
+        "description": "app.core.config",
+        "isExtraImport": true,
+        "detail": "app.core.config",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "app.core.config",
+        "description": "app.core.config",
+        "isExtraImport": true,
+        "detail": "app.core.config",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "app.core.config",
+        "description": "app.core.config",
+        "isExtraImport": true,
+        "detail": "app.core.config",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "threading",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "threading",
+        "description": "threading",
+        "detail": "threading",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "BaseSettings",
+        "importPath": "pydantic_settings",
+        "description": "pydantic_settings",
+        "isExtraImport": true,
+        "detail": "pydantic_settings",
+        "documentation": {}
+    },
+    {
+        "label": "uuid",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "uuid",
+        "description": "uuid",
+        "detail": "uuid",
+        "documentation": {}
+    },
+    {
+        "label": "send_notification_task",
+        "importPath": "app.tasks.notifications",
+        "description": "app.tasks.notifications",
+        "isExtraImport": true,
+        "detail": "app.tasks.notifications",
+        "documentation": {}
+    },
+    {
+        "label": "process_delivery_analytics_task",
+        "importPath": "app.tasks.analytics",
+        "description": "app.tasks.analytics",
+        "isExtraImport": true,
+        "detail": "app.tasks.analytics",
+        "documentation": {}
+    },
+    {
+        "label": "JSONResponse",
+        "importPath": "fastapi.responses",
+        "description": "fastapi.responses",
+        "isExtraImport": true,
+        "detail": "fastapi.responses",
+        "documentation": {}
+    },
+    {
+        "label": "math",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "math",
+        "description": "math",
+        "detail": "math",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "after_setup_logger",
+        "importPath": "celery.signals",
+        "description": "celery.signals",
+        "isExtraImport": true,
+        "detail": "celery.signals",
+        "documentation": {}
+    },
+    {
+        "label": "after_setup_task_logger",
+        "importPath": "celery.signals",
+        "description": "celery.signals",
+        "isExtraImport": true,
+        "detail": "celery.signals",
+        "documentation": {}
+    },
+    {
+        "label": "secrets",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "secrets",
+        "description": "secrets",
+        "detail": "secrets",
+        "documentation": {}
+    },
+    {
+        "label": "declarative_base",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "relationship",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "relationship",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "relationship",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "relationship",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "relationship",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "redis.asyncio",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "redis.asyncio",
+        "description": "redis.asyncio",
+        "detail": "redis.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "select",
+        "importPath": "sqlalchemy.future",
+        "description": "sqlalchemy.future",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.future",
+        "documentation": {}
+    },
+    {
+        "label": "select",
+        "importPath": "sqlalchemy.future",
+        "description": "sqlalchemy.future",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.future",
+        "documentation": {}
+    },
+    {
+        "label": "select",
+        "importPath": "sqlalchemy.future",
+        "description": "sqlalchemy.future",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.future",
+        "documentation": {}
+    },
+    {
+        "label": "select",
+        "importPath": "sqlalchemy.future",
+        "description": "sqlalchemy.future",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.future",
+        "documentation": {}
+    },
+    {
+        "label": "select",
+        "importPath": "sqlalchemy.future",
+        "description": "sqlalchemy.future",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.future",
+        "documentation": {}
+    },
+    {
+        "label": "TenantNotFoundError",
+        "importPath": "app.core.exceptions",
+        "description": "app.core.exceptions",
+        "isExtraImport": true,
+        "detail": "app.core.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "OrderNotFoundError",
+        "importPath": "app.core.exceptions",
+        "description": "app.core.exceptions",
+        "isExtraImport": true,
+        "detail": "app.core.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "DriverNotFoundError",
+        "importPath": "app.core.exceptions",
+        "description": "app.core.exceptions",
+        "isExtraImport": true,
+        "detail": "app.core.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "UnauthorizedTenantError",
+        "importPath": "app.core.exceptions",
+        "description": "app.core.exceptions",
+        "isExtraImport": true,
+        "detail": "app.core.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "OrderNotFoundError",
+        "importPath": "app.core.exceptions",
+        "description": "app.core.exceptions",
+        "isExtraImport": true,
+        "detail": "app.core.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "UnauthorizedTenantError",
+        "importPath": "app.core.exceptions",
+        "description": "app.core.exceptions",
+        "isExtraImport": true,
+        "detail": "app.core.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "DriverNotFoundError",
+        "importPath": "app.core.exceptions",
+        "description": "app.core.exceptions",
+        "isExtraImport": true,
+        "detail": "app.core.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "InvalidTransitionError",
+        "importPath": "app.core.exceptions",
+        "description": "app.core.exceptions",
+        "isExtraImport": true,
+        "detail": "app.core.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "register_exception_handlers",
+        "importPath": "app.core.exceptions",
+        "description": "app.core.exceptions",
+        "isExtraImport": true,
+        "detail": "app.core.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "InvalidTransitionError",
+        "importPath": "app.core.exceptions",
+        "description": "app.core.exceptions",
+        "isExtraImport": true,
+        "detail": "app.core.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "BaseHTTPMiddleware",
+        "importPath": "starlette.middleware.base",
+        "description": "starlette.middleware.base",
+        "isExtraImport": true,
+        "detail": "starlette.middleware.base",
+        "documentation": {}
+    },
+    {
+        "label": "BaseHTTPMiddleware",
+        "importPath": "starlette.middleware.base",
+        "description": "starlette.middleware.base",
+        "isExtraImport": true,
+        "detail": "starlette.middleware.base",
+        "documentation": {}
+    },
+    {
+        "label": "JSONResponse",
+        "importPath": "starlette.responses",
+        "description": "starlette.responses",
+        "isExtraImport": true,
+        "detail": "starlette.responses",
+        "documentation": {}
+    },
+    {
+        "label": "WebSocketState",
+        "importPath": "starlette.websockets",
+        "description": "starlette.websockets",
+        "isExtraImport": true,
+        "detail": "starlette.websockets",
+        "documentation": {}
+    },
+    {
+        "label": "Counter",
+        "importPath": "prometheus_client",
+        "description": "prometheus_client",
+        "isExtraImport": true,
+        "detail": "prometheus_client",
+        "documentation": {}
+    },
+    {
+        "label": "Histogram",
+        "importPath": "prometheus_client",
+        "description": "prometheus_client",
+        "isExtraImport": true,
+        "detail": "prometheus_client",
+        "documentation": {}
+    },
+    {
+        "label": "Gauge",
+        "importPath": "prometheus_client",
+        "description": "prometheus_client",
+        "isExtraImport": true,
+        "detail": "prometheus_client",
+        "documentation": {}
+    },
+    {
+        "label": "generate_latest",
+        "importPath": "prometheus_client",
+        "description": "prometheus_client",
+        "isExtraImport": true,
+        "detail": "prometheus_client",
+        "documentation": {}
+    },
+    {
+        "label": "CONTENT_TYPE_LATEST",
+        "importPath": "prometheus_client",
+        "description": "prometheus_client",
+        "isExtraImport": true,
+        "detail": "prometheus_client",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "app.db.base",
+        "description": "app.db.base",
+        "isExtraImport": true,
+        "detail": "app.db.base",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "app.db.base",
+        "description": "app.db.base",
+        "isExtraImport": true,
+        "detail": "app.db.base",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "app.db.base",
+        "description": "app.db.base",
+        "isExtraImport": true,
+        "detail": "app.db.base",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "app.db.base",
+        "description": "app.db.base",
+        "isExtraImport": true,
+        "detail": "app.db.base",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "app.db.base",
+        "description": "app.db.base",
+        "isExtraImport": true,
+        "detail": "app.db.base",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "app.db.base",
+        "description": "app.db.base",
+        "isExtraImport": true,
+        "detail": "app.db.base",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "app.db.base",
+        "description": "app.db.base",
+        "isExtraImport": true,
+        "detail": "app.db.base",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "app.db.base",
+        "description": "app.db.base",
+        "isExtraImport": true,
+        "detail": "app.db.base",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "app.db.base",
+        "description": "app.db.base",
+        "isExtraImport": true,
+        "detail": "app.db.base",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "app.db.base",
+        "description": "app.db.base",
+        "isExtraImport": true,
+        "detail": "app.db.base",
+        "documentation": {}
+    },
+    {
+        "label": "enum",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "enum",
+        "description": "enum",
+        "detail": "enum",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "asyncio",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "asyncio",
+        "description": "asyncio",
+        "detail": "asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AssignmentAttempt",
+        "importPath": "app.models.attempt",
+        "description": "app.models.attempt",
+        "isExtraImport": true,
+        "detail": "app.models.attempt",
+        "documentation": {}
+    },
+    {
+        "label": "AttemptStatus",
+        "importPath": "app.models.attempt",
+        "description": "app.models.attempt",
+        "isExtraImport": true,
+        "detail": "app.models.attempt",
+        "documentation": {}
+    },
+    {
+        "label": "OrderStateTransition",
+        "importPath": "app.models.transition",
+        "description": "app.models.transition",
+        "isExtraImport": true,
+        "detail": "app.models.transition",
+        "documentation": {}
+    },
+    {
+        "label": "OrderStateTransition",
+        "importPath": "app.models.transition",
+        "description": "app.models.transition",
+        "isExtraImport": true,
+        "detail": "app.models.transition",
+        "documentation": {}
+    },
+    {
+        "label": "OrderStateTransition",
+        "importPath": "app.models.transition",
+        "description": "app.models.transition",
+        "isExtraImport": true,
+        "detail": "app.models.transition",
+        "documentation": {}
+    },
+    {
+        "label": "OrderStateMachine",
+        "importPath": "app.services.state_machine",
+        "description": "app.services.state_machine",
+        "isExtraImport": true,
+        "detail": "app.services.state_machine",
+        "documentation": {}
+    },
+    {
+        "label": "OrderStateMachine",
+        "importPath": "app.services.state_machine",
+        "description": "app.services.state_machine",
+        "isExtraImport": true,
+        "detail": "app.services.state_machine",
+        "documentation": {}
+    },
+    {
+        "label": "OrderStateMachine",
+        "importPath": "app.services.state_machine",
+        "description": "app.services.state_machine",
+        "isExtraImport": true,
+        "detail": "app.services.state_machine",
+        "documentation": {}
+    },
+    {
+        "label": "calculate_haversine_distance",
+        "importPath": "app.core.geo",
+        "description": "app.core.geo",
+        "isExtraImport": true,
+        "detail": "app.core.geo",
+        "documentation": {}
+    },
+    {
+        "label": "calculate_haversine_distance",
+        "importPath": "app.core.geo",
+        "description": "app.core.geo",
+        "isExtraImport": true,
+        "detail": "app.core.geo",
+        "documentation": {}
+    },
+    {
+        "label": "calculate_haversine_distance",
+        "importPath": "app.core.geo",
+        "description": "app.core.geo",
+        "isExtraImport": true,
+        "detail": "app.core.geo",
+        "documentation": {}
+    },
+    {
+        "label": "httpx",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "httpx",
+        "description": "httpx",
+        "detail": "httpx",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncClient",
+        "importPath": "httpx",
+        "description": "httpx",
+        "isExtraImport": true,
+        "detail": "httpx",
+        "documentation": {}
+    },
+    {
+        "label": "ASGITransport",
+        "importPath": "httpx",
+        "description": "httpx",
+        "isExtraImport": true,
+        "detail": "httpx",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncClient",
+        "importPath": "httpx",
+        "description": "httpx",
+        "isExtraImport": true,
+        "detail": "httpx",
+        "documentation": {}
+    },
+    {
+        "label": "CircuitBreaker",
+        "importPath": "app.core.circuit_breaker",
+        "description": "app.core.circuit_breaker",
+        "isExtraImport": true,
+        "detail": "app.core.circuit_breaker",
+        "documentation": {}
+    },
+    {
+        "label": "CircuitBreaker",
+        "importPath": "app.core.circuit_breaker",
+        "description": "app.core.circuit_breaker",
+        "isExtraImport": true,
+        "detail": "app.core.circuit_breaker",
+        "documentation": {}
+    },
+    {
+        "label": "celery_app",
+        "importPath": "app.core.celery_app",
+        "description": "app.core.celery_app",
+        "isExtraImport": true,
+        "detail": "app.core.celery_app",
+        "documentation": {}
+    },
+    {
+        "label": "celery_app",
+        "importPath": "app.core.celery_app",
+        "description": "app.core.celery_app",
+        "isExtraImport": true,
+        "detail": "app.core.celery_app",
+        "documentation": {}
+    },
+    {
+        "label": "smtplib",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "smtplib",
+        "description": "smtplib",
+        "detail": "smtplib",
+        "documentation": {}
+    },
+    {
+        "label": "MIMEText",
+        "importPath": "email.mime.text",
+        "description": "email.mime.text",
+        "isExtraImport": true,
+        "detail": "email.mime.text",
+        "documentation": {}
+    },
+    {
+        "label": "asynccontextmanager",
+        "importPath": "contextlib",
+        "description": "contextlib",
+        "isExtraImport": true,
+        "detail": "contextlib",
+        "documentation": {}
+    },
+    {
+        "label": "CORSMiddleware",
+        "importPath": "fastapi.middleware.cors",
+        "description": "fastapi.middleware.cors",
+        "isExtraImport": true,
+        "detail": "fastapi.middleware.cors",
+        "documentation": {}
+    },
+    {
+        "label": "deliveries",
+        "importPath": "app.api",
+        "description": "app.api",
+        "isExtraImport": true,
+        "detail": "app.api",
+        "documentation": {}
+    },
+    {
+        "label": "drivers",
+        "importPath": "app.api",
+        "description": "app.api",
+        "isExtraImport": true,
+        "detail": "app.api",
+        "documentation": {}
+    },
+    {
+        "label": "websockets",
+        "importPath": "app.api",
+        "description": "app.api",
+        "isExtraImport": true,
+        "detail": "app.api",
+        "documentation": {}
+    },
+    {
+        "label": "analytics",
+        "importPath": "app.api",
+        "description": "app.api",
+        "isExtraImport": true,
+        "detail": "app.api",
+        "documentation": {}
+    },
+    {
+        "label": "setup_logging",
+        "importPath": "app.core.logging_config",
+        "description": "app.core.logging_config",
+        "isExtraImport": true,
+        "detail": "app.core.logging_config",
+        "documentation": {}
+    },
+    {
+        "label": "pytest",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pytest",
+        "description": "pytest",
+        "detail": "pytest",
+        "documentation": {}
+    },
+    {
+        "label": "pytest_asyncio",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pytest_asyncio",
+        "description": "pytest_asyncio",
+        "detail": "pytest_asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "importPath": "app.main",
+        "description": "app.main",
+        "isExtraImport": true,
+        "detail": "app.main",
+        "documentation": {}
+    },
+    {
+        "label": "generate_api_key",
+        "importPath": "app.core.security",
+        "description": "app.core.security",
+        "isExtraImport": true,
+        "detail": "app.core.security",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "backend.app.api.analytics",
+        "description": "backend.app.api.analytics",
+        "peekOfCode": "router = APIRouter()\n@router.get(\"/tenant\")\nasync def get_tenant_analytics(\n    db: AsyncSession = Depends(get_db),\n    tenant: Tenant = Depends(get_current_tenant)\n):\n    \"\"\"Returns aggregated SaaS metrics and usage data for the current tenant.\"\"\"\n    # 1. Fetch Tenant Aggregated Analytics\n    analytics_result = await db.execute(\n        select(TenantAnalytics).where(TenantAnalytics.tenant_id == tenant.id)",
+        "detail": "backend.app.api.analytics",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "backend.app.api.deliveries",
+        "description": "backend.app.api.deliveries",
+        "peekOfCode": "router = APIRouter()\n@router.get(\"\", response_model=List[DeliveryResponse])\n@router.get(\"/\", response_model=List[DeliveryResponse], include_in_schema=False)\nasync def list_deliveries(\n    db: AsyncSession = Depends(get_db),\n    tenant: Tenant = Depends(get_current_tenant)\n):\n    result = await db.execute(select(Order).where(Order.tenant_id == tenant.id).order_by(Order.id.desc()))\n    orders = result.scalars().all()\n    return orders",
+        "detail": "backend.app.api.deliveries",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "backend.app.api.drivers",
+        "description": "backend.app.api.drivers",
+        "peekOfCode": "router = APIRouter()\n@router.post(\"\", response_model=DriverResponse, status_code=status.HTTP_201_CREATED)\n@router.post(\"/\", response_model=DriverResponse, status_code=status.HTTP_201_CREATED, include_in_schema=False)\nasync def register_driver(\n    driver_data: DriverCreate,\n    db: AsyncSession = Depends(get_db)\n):\n    driver = await DriverService.create_driver(db, driver_data)\n    return driver\n@router.get(\"/{driver_id}\", response_model=DriverResponse)",
+        "detail": "backend.app.api.drivers",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "backend.app.api.websockets",
+        "description": "backend.app.api.websockets",
+        "peekOfCode": "router = APIRouter()\nlogger = logging.getLogger(\"WebSocketRoutes\")\n@router.websocket(\"/track/{delivery_id}\")\nasync def track_delivery(websocket: WebSocket, delivery_id: int):\n    logger.info(f\"WebSocket connecting to track delivery {delivery_id}\")\n    WEBSOCKET_CONNECTIONS_ACTIVE.labels(endpoint=\"/track\").inc()\n    await manager.connect_track(delivery_id, websocket)\n    try:\n        while True:\n            # Keep connection open. We ignore messages sent by the client tracking page",
+        "detail": "backend.app.api.websockets",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "backend.app.api.websockets",
+        "description": "backend.app.api.websockets",
+        "peekOfCode": "logger = logging.getLogger(\"WebSocketRoutes\")\n@router.websocket(\"/track/{delivery_id}\")\nasync def track_delivery(websocket: WebSocket, delivery_id: int):\n    logger.info(f\"WebSocket connecting to track delivery {delivery_id}\")\n    WEBSOCKET_CONNECTIONS_ACTIVE.labels(endpoint=\"/track\").inc()\n    await manager.connect_track(delivery_id, websocket)\n    try:\n        while True:\n            # Keep connection open. We ignore messages sent by the client tracking page\n            # since tracking is one-way (server to client) for customer tracking.",
+        "detail": "backend.app.api.websockets",
+        "documentation": {}
+    },
+    {
+        "label": "celery_app",
+        "kind": 5,
+        "importPath": "backend.app.core.celery_app",
+        "description": "backend.app.core.celery_app",
+        "peekOfCode": "celery_app = Celery(\n    \"delivery_platform\",\n    broker=settings.REDIS_URL,\n    backend=settings.REDIS_URL,\n    include=[\n        \"app.tasks.notifications\",\n        \"app.tasks.analytics\"\n    ]\n)\n# Apply SSL configuration if using secure Redis URL (rediss://)",
+        "detail": "backend.app.core.celery_app",
+        "documentation": {}
+    },
+    {
+        "label": "CircuitBreakerOpenException",
+        "kind": 6,
+        "importPath": "backend.app.core.circuit_breaker",
+        "description": "backend.app.core.circuit_breaker",
+        "peekOfCode": "class CircuitBreakerOpenException(Exception):\n    \"\"\"Raised when a request is blocked because the circuit is OPEN.\"\"\"\n    pass\nclass CircuitBreaker:\n    def __init__(\n        self,\n        name: str,\n        failure_threshold: int = 5,\n        recovery_timeout: float = 30.0,\n        half_open_trials: int = 3",
+        "detail": "backend.app.core.circuit_breaker",
+        "documentation": {}
+    },
+    {
+        "label": "CircuitBreaker",
+        "kind": 6,
+        "importPath": "backend.app.core.circuit_breaker",
+        "description": "backend.app.core.circuit_breaker",
+        "peekOfCode": "class CircuitBreaker:\n    def __init__(\n        self,\n        name: str,\n        failure_threshold: int = 5,\n        recovery_timeout: float = 30.0,\n        half_open_trials: int = 3\n    ):\n        self.name = name\n        self.failure_threshold = failure_threshold",
+        "detail": "backend.app.core.circuit_breaker",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "backend.app.core.circuit_breaker",
+        "description": "backend.app.core.circuit_breaker",
+        "peekOfCode": "logger = logging.getLogger(\"CircuitBreaker\")\nclass CircuitBreakerOpenException(Exception):\n    \"\"\"Raised when a request is blocked because the circuit is OPEN.\"\"\"\n    pass\nclass CircuitBreaker:\n    def __init__(\n        self,\n        name: str,\n        failure_threshold: int = 5,\n        recovery_timeout: float = 30.0,",
+        "detail": "backend.app.core.circuit_breaker",
+        "documentation": {}
+    },
+    {
+        "label": "Settings",
+        "kind": 6,
+        "importPath": "backend.app.core.config",
+        "description": "backend.app.core.config",
+        "peekOfCode": "class Settings(BaseSettings):\n    PROJECT_NAME: str = \"Delivery Infrastructure Platform API\"\n    API_V1_STR: str = \"/api/v1\"\n    # Database Settings\n    DATABASE_URL: str = os.getenv(\n        \"DATABASE_URL\", \n        \"postgresql+asyncpg://postgres:Nikil%40sql@localhost:5432/delivery_platform\"\n    )\n    # Redis Settings\n    REDIS_URL: str = os.getenv(\"REDIS_URL\", \"redis://localhost:6379\")",
+        "detail": "backend.app.core.config",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "kind": 5,
+        "importPath": "backend.app.core.config",
+        "description": "backend.app.core.config",
+        "peekOfCode": "settings = Settings()",
+        "detail": "backend.app.core.config",
+        "documentation": {}
+    },
+    {
+        "label": "dispatch_event",
+        "kind": 2,
+        "importPath": "backend.app.core.events",
+        "description": "backend.app.core.events",
+        "peekOfCode": "def dispatch_event(event_type: str, order_id: int, tenant_id: int):\n    \"\"\"\n    Emits an event and queues corresponding background tasks via Celery.\n    Asynchronous and non-blocking for FastAPI request handlers.\n    \"\"\"\n    event_id = str(uuid.uuid4())\n    logger.info(f\"Dispatching event {event_type} (ID: {event_id}) for Order #{order_id}\")\n    now_ts = time.time()\n    # 1. Trigger notification task (handles email, push, and websocket checks)\n    send_notification_task.delay(",
+        "detail": "backend.app.core.events",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "backend.app.core.events",
+        "description": "backend.app.core.events",
+        "peekOfCode": "logger = logging.getLogger(\"EventDispatcher\")\ndef dispatch_event(event_type: str, order_id: int, tenant_id: int):\n    \"\"\"\n    Emits an event and queues corresponding background tasks via Celery.\n    Asynchronous and non-blocking for FastAPI request handlers.\n    \"\"\"\n    event_id = str(uuid.uuid4())\n    logger.info(f\"Dispatching event {event_type} (ID: {event_id}) for Order #{order_id}\")\n    now_ts = time.time()\n    # 1. Trigger notification task (handles email, push, and websocket checks)",
+        "detail": "backend.app.core.events",
+        "documentation": {}
+    },
+    {
+        "label": "InvalidTransitionError",
+        "kind": 6,
+        "importPath": "backend.app.core.exceptions",
+        "description": "backend.app.core.exceptions",
+        "peekOfCode": "class InvalidTransitionError(Exception):\n    \"\"\"Raised when an invalid state transition is attempted in the state machine.\"\"\"\n    def __init__(self, from_state: str, to_state: str):\n        self.from_state = from_state\n        self.to_state = to_state\n        super().__init__(f\"Invalid transition from state '{from_state}' to '{to_state}'\")\nclass TenantNotFoundError(Exception):\n    \"\"\"Raised when the API key does not correspond to any registered tenant.\"\"\"\n    pass\nclass OrderNotFoundError(Exception):",
+        "detail": "backend.app.core.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "TenantNotFoundError",
+        "kind": 6,
+        "importPath": "backend.app.core.exceptions",
+        "description": "backend.app.core.exceptions",
+        "peekOfCode": "class TenantNotFoundError(Exception):\n    \"\"\"Raised when the API key does not correspond to any registered tenant.\"\"\"\n    pass\nclass OrderNotFoundError(Exception):\n    \"\"\"Raised when the requested delivery/order does not exist.\"\"\"\n    pass\nclass DriverNotFoundError(Exception):\n    \"\"\"Raised when the requested driver does not exist.\"\"\"\n    pass\nclass UnauthorizedTenantError(Exception):",
+        "detail": "backend.app.core.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "OrderNotFoundError",
+        "kind": 6,
+        "importPath": "backend.app.core.exceptions",
+        "description": "backend.app.core.exceptions",
+        "peekOfCode": "class OrderNotFoundError(Exception):\n    \"\"\"Raised when the requested delivery/order does not exist.\"\"\"\n    pass\nclass DriverNotFoundError(Exception):\n    \"\"\"Raised when the requested driver does not exist.\"\"\"\n    pass\nclass UnauthorizedTenantError(Exception):\n    \"\"\"Raised when a tenant attempts to access or mutate resources they do not own.\"\"\"\n    pass\ndef register_exception_handlers(app: FastAPI) -> None:",
+        "detail": "backend.app.core.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "DriverNotFoundError",
+        "kind": 6,
+        "importPath": "backend.app.core.exceptions",
+        "description": "backend.app.core.exceptions",
+        "peekOfCode": "class DriverNotFoundError(Exception):\n    \"\"\"Raised when the requested driver does not exist.\"\"\"\n    pass\nclass UnauthorizedTenantError(Exception):\n    \"\"\"Raised when a tenant attempts to access or mutate resources they do not own.\"\"\"\n    pass\ndef register_exception_handlers(app: FastAPI) -> None:\n    @app.exception_handler(InvalidTransitionError)\n    async def invalid_transition_handler(request: Request, exc: InvalidTransitionError):\n        return JSONResponse(",
+        "detail": "backend.app.core.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "UnauthorizedTenantError",
+        "kind": 6,
+        "importPath": "backend.app.core.exceptions",
+        "description": "backend.app.core.exceptions",
+        "peekOfCode": "class UnauthorizedTenantError(Exception):\n    \"\"\"Raised when a tenant attempts to access or mutate resources they do not own.\"\"\"\n    pass\ndef register_exception_handlers(app: FastAPI) -> None:\n    @app.exception_handler(InvalidTransitionError)\n    async def invalid_transition_handler(request: Request, exc: InvalidTransitionError):\n        return JSONResponse(\n            status_code=status.HTTP_422_UNPROCESSABLE_ENTITY,\n            content={\"detail\": \"Invalid state transition\"}\n        )",
+        "detail": "backend.app.core.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "register_exception_handlers",
+        "kind": 2,
+        "importPath": "backend.app.core.exceptions",
+        "description": "backend.app.core.exceptions",
+        "peekOfCode": "def register_exception_handlers(app: FastAPI) -> None:\n    @app.exception_handler(InvalidTransitionError)\n    async def invalid_transition_handler(request: Request, exc: InvalidTransitionError):\n        return JSONResponse(\n            status_code=status.HTTP_422_UNPROCESSABLE_ENTITY,\n            content={\"detail\": \"Invalid state transition\"}\n        )\n    @app.exception_handler(TenantNotFoundError)\n    async def tenant_not_found_handler(request: Request, exc: TenantNotFoundError):\n        return JSONResponse(",
+        "detail": "backend.app.core.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "calculate_haversine_distance",
+        "kind": 2,
+        "importPath": "backend.app.core.geo",
+        "description": "backend.app.core.geo",
+        "peekOfCode": "def calculate_haversine_distance(lat1: float, lon1: float, lat2: float, lon2: float) -> float:\n    \"\"\"\n    Calculate the great-circle distance between two points\n    on the Earth's surface in meters using the Haversine formula.\n    \"\"\"\n    if lat1 == lat2 and lon1 == lon2:\n        return 0.0\n    R = 6371000.0  # Earth's radius in meters\n    phi1 = math.radians(lat1)\n    phi2 = math.radians(lat2)",
+        "detail": "backend.app.core.geo",
+        "documentation": {}
+    },
+    {
+        "label": "JSONFormatter",
+        "kind": 6,
+        "importPath": "backend.app.core.logging_config",
+        "description": "backend.app.core.logging_config",
+        "peekOfCode": "class JSONFormatter(logging.Formatter):\n    def format(self, record: logging.LogRecord) -> str:\n        log_data = {\n            \"timestamp\": datetime.fromtimestamp(record.created, timezone.utc).isoformat(),\n            \"level\": record.levelname,\n            \"logger\": record.name,\n            \"message\": record.getMessage(),\n            \"file\": f\"{record.filename}:{record.lineno}\",\n            \"function\": record.funcName\n        }",
+        "detail": "backend.app.core.logging_config",
+        "documentation": {}
+    },
+    {
+        "label": "setup_logging",
+        "kind": 2,
+        "importPath": "backend.app.core.logging_config",
+        "description": "backend.app.core.logging_config",
+        "peekOfCode": "def setup_logging():\n    root_logger = logging.getLogger()\n    # Clear existing handlers to prevent double logs\n    for handler in root_logger.handlers[:]:\n        root_logger.removeHandler(handler)\n    console_handler = logging.StreamHandler()\n    console_handler.setFormatter(JSONFormatter())\n    root_logger.addHandler(console_handler)\n    root_logger.setLevel(logging.INFO)\n    # Ensure uvicorn, standard logging, and libraries output JSON",
+        "detail": "backend.app.core.logging_config",
+        "documentation": {}
+    },
+    {
+        "label": "setup_celery_logger",
+        "kind": 2,
+        "importPath": "backend.app.core.logging_config",
+        "description": "backend.app.core.logging_config",
+        "peekOfCode": "def setup_celery_logger(logger, *args, **kwargs):\n    for handler in logger.handlers[:]:\n        logger.removeHandler(handler)\n    h = logging.StreamHandler()\n    h.setFormatter(JSONFormatter())\n    logger.addHandler(h)\n    logger.propagate = False\n@after_setup_task_logger.connect\ndef setup_celery_task_logger(logger, *args, **kwargs):\n    for handler in logger.handlers[:]:",
+        "detail": "backend.app.core.logging_config",
+        "documentation": {}
+    },
+    {
+        "label": "setup_celery_task_logger",
+        "kind": 2,
+        "importPath": "backend.app.core.logging_config",
+        "description": "backend.app.core.logging_config",
+        "peekOfCode": "def setup_celery_task_logger(logger, *args, **kwargs):\n    for handler in logger.handlers[:]:\n        logger.removeHandler(handler)\n    h = logging.StreamHandler()\n    h.setFormatter(JSONFormatter())\n    logger.addHandler(h)\n    logger.propagate = False",
+        "detail": "backend.app.core.logging_config",
+        "documentation": {}
+    },
+    {
+        "label": "generate_api_key",
+        "kind": 2,
+        "importPath": "backend.app.core.security",
+        "description": "backend.app.core.security",
+        "peekOfCode": "def generate_api_key() -> str:\n    \"\"\"Generates a secure random API key for a tenant.\"\"\"\n    return f\"dep_{secrets.token_urlsafe(32)}\"",
+        "detail": "backend.app.core.security",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "kind": 5,
+        "importPath": "backend.app.db.base",
+        "description": "backend.app.db.base",
+        "peekOfCode": "Base = declarative_base()",
+        "detail": "backend.app.db.base",
+        "documentation": {}
+    },
+    {
+        "label": "connect_args",
+        "kind": 5,
+        "importPath": "backend.app.db.session",
+        "description": "backend.app.db.session",
+        "peekOfCode": "connect_args = {}\nif settings.DATABASE_URL.startswith(\"sqlite\"):\n    connect_args = {\"check_same_thread\": False}\nelse:\n    # Disable statement cache for PgBouncer/Supabase transaction pooling compatibility\n    connect_args = {\"statement_cache_size\": 0}\ndb_url = settings.DATABASE_URL\n# Defensive programming: Strip pgbouncer parameter to prevent asyncpg crash\nif \"pgbouncer=\" in db_url:\n    from urllib.parse import urlparse, urlunparse, parse_qsl, urlencode",
+        "detail": "backend.app.db.session",
+        "documentation": {}
+    },
+    {
+        "label": "db_url",
+        "kind": 5,
+        "importPath": "backend.app.db.session",
+        "description": "backend.app.db.session",
+        "peekOfCode": "db_url = settings.DATABASE_URL\n# Defensive programming: Strip pgbouncer parameter to prevent asyncpg crash\nif \"pgbouncer=\" in db_url:\n    from urllib.parse import urlparse, urlunparse, parse_qsl, urlencode\n    parsed = urlparse(db_url)\n    qsl = [(k, v) for k, v in parse_qsl(parsed.query) if k != \"pgbouncer\"]\n    db_url = urlunparse(parsed._replace(query=urlencode(qsl)))\nengine = create_async_engine(\n    db_url,\n    connect_args=connect_args,",
+        "detail": "backend.app.db.session",
+        "documentation": {}
+    },
+    {
+        "label": "engine",
+        "kind": 5,
+        "importPath": "backend.app.db.session",
+        "description": "backend.app.db.session",
+        "peekOfCode": "engine = create_async_engine(\n    db_url,\n    connect_args=connect_args,\n    pool_pre_ping=True,\n)\nAsyncSessionLocal = async_sessionmaker(\n    bind=engine, \n    class_=AsyncSession, \n    expire_on_commit=False,\n    autocommit=False,",
+        "detail": "backend.app.db.session",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSessionLocal",
+        "kind": 5,
+        "importPath": "backend.app.db.session",
+        "description": "backend.app.db.session",
+        "peekOfCode": "AsyncSessionLocal = async_sessionmaker(\n    bind=engine, \n    class_=AsyncSession, \n    expire_on_commit=False,\n    autocommit=False,\n    autoflush=False\n)\nasync def get_db():\n    async with AsyncSessionLocal() as db:\n        try:",
+        "detail": "backend.app.db.session",
+        "documentation": {}
+    },
+    {
+        "label": "MeteringMiddleware",
+        "kind": 6,
+        "importPath": "backend.app.middleware.metering",
+        "description": "backend.app.middleware.metering",
+        "peekOfCode": "class MeteringMiddleware(BaseHTTPMiddleware):\n    async def dispatch(self, request: Request, call_next):\n        api_key = request.headers.get(\"X-API-Key\")\n        if not api_key:\n            # Skip metering if no tenant API key is supplied (e.g. public, driver, or health routes)\n            return await call_next(request)\n        # 1. Fetch Tenant details (Cache in Redis for 5 minutes to avoid PG bottleneck)\n        cache_key = f\"tenant:key:{api_key}\"\n        tenant_data = await redis_client.get(cache_key)\n        db_session = getattr(request.app.state, \"db\", None)",
+        "detail": "backend.app.middleware.metering",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "backend.app.middleware.metering",
+        "description": "backend.app.middleware.metering",
+        "peekOfCode": "logger = logging.getLogger(\"MeteringMiddleware\")\nclass MeteringMiddleware(BaseHTTPMiddleware):\n    async def dispatch(self, request: Request, call_next):\n        api_key = request.headers.get(\"X-API-Key\")\n        if not api_key:\n            # Skip metering if no tenant API key is supplied (e.g. public, driver, or health routes)\n            return await call_next(request)\n        # 1. Fetch Tenant details (Cache in Redis for 5 minutes to avoid PG bottleneck)\n        cache_key = f\"tenant:key:{api_key}\"\n        tenant_data = await redis_client.get(cache_key)",
+        "detail": "backend.app.middleware.metering",
+        "documentation": {}
+    },
+    {
+        "label": "PrometheusMiddleware",
+        "kind": 6,
+        "importPath": "backend.app.middleware.metrics",
+        "description": "backend.app.middleware.metrics",
+        "peekOfCode": "class PrometheusMiddleware(BaseHTTPMiddleware):\n    async def dispatch(self, request: Request, call_next) -> Response:\n        # Avoid scraping metrics endpoint or static files recursively\n        path = request.url.path\n        if path == \"/metrics\" or path == \"/health\":\n            return await call_next(request)\n        method = request.method\n        start_time = time.perf_counter()\n        try:\n            response = await call_next(request)",
+        "detail": "backend.app.middleware.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "register_metrics_route",
+        "kind": 2,
+        "importPath": "backend.app.middleware.metrics",
+        "description": "backend.app.middleware.metrics",
+        "peekOfCode": "def register_metrics_route(app):\n    # Endpoint to serve Prometheus scraping data\n    @app.get(\"/metrics\")\n    def metrics():\n        # Dynamically sample database and redis latency for telemetry\n        # In a real environment, we would monitor pools. For mock observability:\n        from app.db.redis import redis_client\n        from app.db.session import AsyncSessionLocal\n        from sqlalchemy import text\n        import asyncio",
+        "detail": "backend.app.middleware.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_REQUESTS_TOTAL",
+        "kind": 5,
+        "importPath": "backend.app.middleware.metrics",
+        "description": "backend.app.middleware.metrics",
+        "peekOfCode": "HTTP_REQUESTS_TOTAL = Counter(\n    \"http_requests_total\",\n    \"Total number of HTTP requests processed\",\n    [\"method\", \"endpoint\", \"status\"]\n)\nHTTP_REQUEST_DURATION_SECONDS = Histogram(\n    \"http_request_duration_seconds\",\n    \"HTTP request duration in seconds\",\n    [\"method\", \"endpoint\"],\n    buckets=(0.01, 0.025, 0.05, 0.075, 0.1, 0.25, 0.5, 0.75, 1.0, 2.5, 5.0, 7.5, 10.0)",
+        "detail": "backend.app.middleware.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_REQUEST_DURATION_SECONDS",
+        "kind": 5,
+        "importPath": "backend.app.middleware.metrics",
+        "description": "backend.app.middleware.metrics",
+        "peekOfCode": "HTTP_REQUEST_DURATION_SECONDS = Histogram(\n    \"http_request_duration_seconds\",\n    \"HTTP request duration in seconds\",\n    [\"method\", \"endpoint\"],\n    buckets=(0.01, 0.025, 0.05, 0.075, 0.1, 0.25, 0.5, 0.75, 1.0, 2.5, 5.0, 7.5, 10.0)\n)\nWEBSOCKET_CONNECTIONS_ACTIVE = Gauge(\n    \"websocket_connections_active\",\n    \"Number of active WebSocket connections\",\n    [\"endpoint\"]",
+        "detail": "backend.app.middleware.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "WEBSOCKET_CONNECTIONS_ACTIVE",
+        "kind": 5,
+        "importPath": "backend.app.middleware.metrics",
+        "description": "backend.app.middleware.metrics",
+        "peekOfCode": "WEBSOCKET_CONNECTIONS_ACTIVE = Gauge(\n    \"websocket_connections_active\",\n    \"Number of active WebSocket connections\",\n    [\"endpoint\"]\n)\nDATABASE_QUERY_DURATION_SECONDS = Histogram(\n    \"database_query_duration_seconds\",\n    \"PostgreSQL query execution latencies in seconds\",\n    buckets=(0.005, 0.01, 0.025, 0.05, 0.1, 0.25, 0.5, 1.0, 2.5)\n)",
+        "detail": "backend.app.middleware.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASE_QUERY_DURATION_SECONDS",
+        "kind": 5,
+        "importPath": "backend.app.middleware.metrics",
+        "description": "backend.app.middleware.metrics",
+        "peekOfCode": "DATABASE_QUERY_DURATION_SECONDS = Histogram(\n    \"database_query_duration_seconds\",\n    \"PostgreSQL query execution latencies in seconds\",\n    buckets=(0.005, 0.01, 0.025, 0.05, 0.1, 0.25, 0.5, 1.0, 2.5)\n)\nREDIS_LATENCY_SECONDS = Histogram(\n    \"redis_latency_seconds\",\n    \"Redis operation latency in seconds\",\n    buckets=(0.001, 0.0025, 0.005, 0.01, 0.025, 0.05, 0.1, 0.25)\n)",
+        "detail": "backend.app.middleware.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "REDIS_LATENCY_SECONDS",
+        "kind": 5,
+        "importPath": "backend.app.middleware.metrics",
+        "description": "backend.app.middleware.metrics",
+        "peekOfCode": "REDIS_LATENCY_SECONDS = Histogram(\n    \"redis_latency_seconds\",\n    \"Redis operation latency in seconds\",\n    buckets=(0.001, 0.0025, 0.005, 0.01, 0.025, 0.05, 0.1, 0.25)\n)\nclass PrometheusMiddleware(BaseHTTPMiddleware):\n    async def dispatch(self, request: Request, call_next) -> Response:\n        # Avoid scraping metrics endpoint or static files recursively\n        path = request.url.path\n        if path == \"/metrics\" or path == \"/health\":",
+        "detail": "backend.app.middleware.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "TripAnalytics",
+        "kind": 6,
+        "importPath": "backend.app.models.analytics",
+        "description": "backend.app.models.analytics",
+        "peekOfCode": "class TripAnalytics(Base):\n    __tablename__ = \"trip_analytics\"\n    id = Column(Integer, primary_key=True, index=True)\n    order_id = Column(Integer, ForeignKey(\"orders.id\", ondelete=\"CASCADE\"), unique=True, nullable=False)\n    actual_delivery_time = Column(Float, nullable=True) # in seconds\n    eta_accuracy = Column(Float, nullable=True) # percentage deviation\n    distance_traveled = Column(Float, nullable=True) # in meters\n    pickup_delay = Column(Float, nullable=True) # in seconds\n    driver_idle_time = Column(Float, nullable=True) # in seconds\n    assignment_time = Column(Float, nullable=True) # in seconds",
+        "detail": "backend.app.models.analytics",
+        "documentation": {}
+    },
+    {
+        "label": "DriverAnalytics",
+        "kind": 6,
+        "importPath": "backend.app.models.analytics",
+        "description": "backend.app.models.analytics",
+        "peekOfCode": "class DriverAnalytics(Base):\n    __tablename__ = \"driver_analytics\"\n    id = Column(Integer, primary_key=True, index=True)\n    driver_id = Column(Integer, ForeignKey(\"drivers.id\", ondelete=\"CASCADE\"), unique=True, nullable=False)\n    acceptance_rate = Column(Float, default=0.0, nullable=False)\n    rejection_rate = Column(Float, default=0.0, nullable=False)\n    timeout_rate = Column(Float, default=0.0, nullable=False)\n    avg_pickup_time = Column(Float, default=0.0, nullable=False) # in seconds\n    avg_delivery_time = Column(Float, default=0.0, nullable=False) # in seconds\n    eta_accuracy = Column(Float, default=0.0, nullable=False)",
+        "detail": "backend.app.models.analytics",
+        "documentation": {}
+    },
+    {
+        "label": "TenantAnalytics",
+        "kind": 6,
+        "importPath": "backend.app.models.analytics",
+        "description": "backend.app.models.analytics",
+        "peekOfCode": "class TenantAnalytics(Base):\n    __tablename__ = \"tenant_analytics\"\n    id = Column(Integer, primary_key=True, index=True)\n    tenant_id = Column(Integer, ForeignKey(\"tenants.id\", ondelete=\"CASCADE\"), unique=True, nullable=False)\n    total_deliveries = Column(Integer, default=0, nullable=False)\n    avg_delivery_time = Column(Float, default=0.0, nullable=False) # in seconds\n    avg_assignment_time = Column(Float, default=0.0, nullable=False) # in seconds\n    notification_success_rate = Column(Float, default=100.0, nullable=False)\n    driver_acceptance_rate = Column(Float, default=100.0, nullable=False)\n    updated_at = Column(DateTime(timezone=True), server_default=func.now(), onupdate=func.now(), nullable=False)",
+        "detail": "backend.app.models.analytics",
+        "documentation": {}
+    },
+    {
+        "label": "TenantUsageHourly",
+        "kind": 6,
+        "importPath": "backend.app.models.analytics",
+        "description": "backend.app.models.analytics",
+        "peekOfCode": "class TenantUsageHourly(Base):\n    __tablename__ = \"tenant_usage_hourly\"\n    id = Column(Integer, primary_key=True, index=True)\n    tenant_id = Column(Integer, ForeignKey(\"tenants.id\", ondelete=\"CASCADE\"), nullable=False)\n    hour = Column(DateTime(timezone=True), nullable=False)\n    request_count = Column(Integer, default=0, nullable=False)\n    created_at = Column(DateTime(timezone=True), server_default=func.now(), nullable=False)",
+        "detail": "backend.app.models.analytics",
+        "documentation": {}
+    },
+    {
+        "label": "AttemptStatus",
+        "kind": 6,
+        "importPath": "backend.app.models.attempt",
+        "description": "backend.app.models.attempt",
+        "peekOfCode": "class AttemptStatus(str, enum.Enum):\n    OFFERED = \"OFFERED\"\n    ACCEPTED = \"ACCEPTED\"\n    REJECTED = \"REJECTED\"\n    TIMEOUT = \"TIMEOUT\"\nclass AssignmentAttempt(Base):\n    __tablename__ = \"assignment_attempts\"\n    id = Column(Integer, primary_key=True, index=True)\n    order_id = Column(Integer, ForeignKey(\"orders.id\", ondelete=\"CASCADE\"), nullable=False)\n    driver_id = Column(Integer, ForeignKey(\"drivers.id\", ondelete=\"CASCADE\"), nullable=False)",
+        "detail": "backend.app.models.attempt",
+        "documentation": {}
+    },
+    {
+        "label": "AssignmentAttempt",
+        "kind": 6,
+        "importPath": "backend.app.models.attempt",
+        "description": "backend.app.models.attempt",
+        "peekOfCode": "class AssignmentAttempt(Base):\n    __tablename__ = \"assignment_attempts\"\n    id = Column(Integer, primary_key=True, index=True)\n    order_id = Column(Integer, ForeignKey(\"orders.id\", ondelete=\"CASCADE\"), nullable=False)\n    driver_id = Column(Integer, ForeignKey(\"drivers.id\", ondelete=\"CASCADE\"), nullable=False)\n    status = Column(Enum(AttemptStatus), default=AttemptStatus.OFFERED, nullable=False)\n    created_at = Column(DateTime(timezone=True), server_default=func.now(), nullable=False)\n    updated_at = Column(DateTime(timezone=True), server_default=func.now(), onupdate=func.now(), nullable=False)\n    # Relationships\n    order = relationship(\"Order\")",
+        "detail": "backend.app.models.attempt",
+        "documentation": {}
+    },
+    {
+        "label": "DriverStatus",
+        "kind": 6,
+        "importPath": "backend.app.models.driver",
+        "description": "backend.app.models.driver",
+        "peekOfCode": "class DriverStatus(str, enum.Enum):\n    OFFLINE = \"OFFLINE\"\n    ONLINE = \"ONLINE\"\n    BUSY = \"BUSY\"\nclass Driver(Base):\n    __tablename__ = \"drivers\"\n    id = Column(Integer, primary_key=True, index=True)\n    name = Column(String, nullable=False)\n    phone = Column(String, nullable=False)\n    status = Column(Enum(DriverStatus), default=DriverStatus.OFFLINE, nullable=False)",
+        "detail": "backend.app.models.driver",
+        "documentation": {}
+    },
+    {
+        "label": "Driver",
+        "kind": 6,
+        "importPath": "backend.app.models.driver",
+        "description": "backend.app.models.driver",
+        "peekOfCode": "class Driver(Base):\n    __tablename__ = \"drivers\"\n    id = Column(Integer, primary_key=True, index=True)\n    name = Column(String, nullable=False)\n    phone = Column(String, nullable=False)\n    status = Column(Enum(DriverStatus), default=DriverStatus.OFFLINE, nullable=False)\n    # Lat/Lng floats for current location\n    current_lat = Column(Float, nullable=True)\n    current_lng = Column(Float, nullable=True)\n    # New platform features",
+        "detail": "backend.app.models.driver",
+        "documentation": {}
+    },
+    {
+        "label": "NotificationStatus",
+        "kind": 6,
+        "importPath": "backend.app.models.notification_log",
+        "description": "backend.app.models.notification_log",
+        "peekOfCode": "class NotificationStatus(str, enum.Enum):\n    SUCCESS = \"SUCCESS\"\n    FAILED = \"FAILED\"\n    RETRY = \"RETRY\"\nclass NotificationLog(Base):\n    __tablename__ = \"notification_logs\"\n    id = Column(Integer, primary_key=True, index=True)\n    event_id = Column(String, index=True, nullable=False)\n    order_id = Column(Integer, ForeignKey(\"orders.id\", ondelete=\"CASCADE\"), nullable=False)\n    tenant_id = Column(Integer, ForeignKey(\"tenants.id\", ondelete=\"CASCADE\"), nullable=False)",
+        "detail": "backend.app.models.notification_log",
+        "documentation": {}
+    },
+    {
+        "label": "NotificationLog",
+        "kind": 6,
+        "importPath": "backend.app.models.notification_log",
+        "description": "backend.app.models.notification_log",
+        "peekOfCode": "class NotificationLog(Base):\n    __tablename__ = \"notification_logs\"\n    id = Column(Integer, primary_key=True, index=True)\n    event_id = Column(String, index=True, nullable=False)\n    order_id = Column(Integer, ForeignKey(\"orders.id\", ondelete=\"CASCADE\"), nullable=False)\n    tenant_id = Column(Integer, ForeignKey(\"tenants.id\", ondelete=\"CASCADE\"), nullable=False)\n    channel = Column(String, nullable=False) # EMAIL, PUSH, WEBSOCKET\n    event_type = Column(String, nullable=False) # ASSIGNED, PICKED_UP, NEAR_DELIVERY, DELIVERED\n    status = Column(Enum(NotificationStatus), default=NotificationStatus.RETRY, nullable=False)\n    error_message = Column(String, nullable=True)",
+        "detail": "backend.app.models.notification_log",
+        "documentation": {}
+    },
+    {
+        "label": "OrderStatus",
+        "kind": 6,
+        "importPath": "backend.app.models.order",
+        "description": "backend.app.models.order",
+        "peekOfCode": "class OrderStatus(str, enum.Enum):\n    CREATED = \"CREATED\"\n    DRIVER_PENDING = \"DRIVER_PENDING\"\n    ASSIGNED = \"ASSIGNED\"\n    PICKED_UP = \"PICKED_UP\"\n    IN_TRANSIT = \"IN_TRANSIT\"\n    DELIVERED = \"DELIVERED\"\n    CANCELLED = \"CANCELLED\"\n    NO_DRIVER_AVAILABLE = \"NO_DRIVER_AVAILABLE\"\nclass Order(Base):",
+        "detail": "backend.app.models.order",
+        "documentation": {}
+    },
+    {
+        "label": "Order",
+        "kind": 6,
+        "importPath": "backend.app.models.order",
+        "description": "backend.app.models.order",
+        "peekOfCode": "class Order(Base):\n    __tablename__ = \"orders\"\n    id = Column(Integer, primary_key=True, index=True)\n    tenant_id = Column(Integer, ForeignKey(\"tenants.id\", ondelete=\"CASCADE\"), nullable=False)\n    driver_id = Column(Integer, ForeignKey(\"drivers.id\", ondelete=\"SET NULL\"), nullable=True)\n    status = Column(Enum(OrderStatus), default=OrderStatus.CREATED, nullable=False)\n    # Lat/Lng floats for pickup and dropoff\n    pickup_lat = Column(Float, nullable=False)\n    pickup_lng = Column(Float, nullable=False)\n    dropoff_lat = Column(Float, nullable=False)",
+        "detail": "backend.app.models.order",
+        "documentation": {}
+    },
+    {
+        "label": "Tenant",
+        "kind": 6,
+        "importPath": "backend.app.models.tenant",
+        "description": "backend.app.models.tenant",
+        "peekOfCode": "class Tenant(Base):\n    __tablename__ = \"tenants\"\n    id = Column(Integer, primary_key=True, index=True)\n    name = Column(String, nullable=False)\n    api_key = Column(String, unique=True, index=True, nullable=False)\n    # SaaS Plan Details\n    plan_name = Column(String, default=\"FREE\", nullable=False)\n    rate_limit_per_minute = Column(Integer, default=60, nullable=False)\n    monthly_quota = Column(Integer, default=10000, nullable=False)\n    quota_exceeded_at = Column(DateTime(timezone=True), nullable=True)",
+        "detail": "backend.app.models.tenant",
+        "documentation": {}
+    },
+    {
+        "label": "OrderStateTransition",
+        "kind": 6,
+        "importPath": "backend.app.models.transition",
+        "description": "backend.app.models.transition",
+        "peekOfCode": "class OrderStateTransition(Base):\n    __tablename__ = \"order_state_transitions\"\n    id = Column(Integer, primary_key=True, index=True)\n    order_id = Column(Integer, ForeignKey(\"orders.id\", ondelete=\"CASCADE\"), nullable=False)\n    from_status = Column(Enum(OrderStatus), nullable=False)\n    to_status = Column(Enum(OrderStatus), nullable=False)\n    created_at = Column(DateTime(timezone=True), server_default=func.now(), nullable=False)\n    # Relationships\n    order = relationship(\"Order\", back_populates=\"transitions\")",
+        "detail": "backend.app.models.transition",
+        "documentation": {}
+    },
+    {
+        "label": "DeliveryCreate",
+        "kind": 6,
+        "importPath": "backend.app.schemas.delivery",
+        "description": "backend.app.schemas.delivery",
+        "peekOfCode": "class DeliveryCreate(BaseModel):\n    pickup_lat: float = Field(..., ge=-90, le=90)\n    pickup_lng: float = Field(..., ge=-180, le=180)\n    dropoff_lat: float = Field(..., ge=-90, le=90)\n    dropoff_lng: float = Field(..., ge=-180, le=180)\nclass DeliveryStatusUpdate(BaseModel):\n    status: OrderStatus\n    driver_id: Optional[int] = None\nclass ManualAssignment(BaseModel):\n    driver_id: int",
+        "detail": "backend.app.schemas.delivery",
+        "documentation": {}
+    },
+    {
+        "label": "DeliveryStatusUpdate",
+        "kind": 6,
+        "importPath": "backend.app.schemas.delivery",
+        "description": "backend.app.schemas.delivery",
+        "peekOfCode": "class DeliveryStatusUpdate(BaseModel):\n    status: OrderStatus\n    driver_id: Optional[int] = None\nclass ManualAssignment(BaseModel):\n    driver_id: int\nclass DeliveryResponse(BaseModel):\n    id: int\n    tenant_id: int\n    driver_id: Optional[int] = None\n    status: OrderStatus",
+        "detail": "backend.app.schemas.delivery",
+        "documentation": {}
+    },
+    {
+        "label": "ManualAssignment",
+        "kind": 6,
+        "importPath": "backend.app.schemas.delivery",
+        "description": "backend.app.schemas.delivery",
+        "peekOfCode": "class ManualAssignment(BaseModel):\n    driver_id: int\nclass DeliveryResponse(BaseModel):\n    id: int\n    tenant_id: int\n    driver_id: Optional[int] = None\n    status: OrderStatus\n    pickup_lat: float\n    pickup_lng: float\n    dropoff_lat: float",
+        "detail": "backend.app.schemas.delivery",
+        "documentation": {}
+    },
+    {
+        "label": "DeliveryResponse",
+        "kind": 6,
+        "importPath": "backend.app.schemas.delivery",
+        "description": "backend.app.schemas.delivery",
+        "peekOfCode": "class DeliveryResponse(BaseModel):\n    id: int\n    tenant_id: int\n    driver_id: Optional[int] = None\n    status: OrderStatus\n    pickup_lat: float\n    pickup_lng: float\n    dropoff_lat: float\n    dropoff_lng: float\n    created_at: datetime",
+        "detail": "backend.app.schemas.delivery",
+        "documentation": {}
+    },
+    {
+        "label": "AutoAssignmentRequest",
+        "kind": 6,
+        "importPath": "backend.app.schemas.delivery",
+        "description": "backend.app.schemas.delivery",
+        "peekOfCode": "class AutoAssignmentRequest(BaseModel):\n    order_id: int",
+        "detail": "backend.app.schemas.delivery",
+        "documentation": {}
+    },
+    {
+        "label": "DriverCreate",
+        "kind": 6,
+        "importPath": "backend.app.schemas.driver",
+        "description": "backend.app.schemas.driver",
+        "peekOfCode": "class DriverCreate(BaseModel):\n    name: str\n    phone: str\nclass DriverLocationUpdate(BaseModel):\n    latitude: float = Field(..., ge=-90, le=90)\n    longitude: float = Field(..., ge=-180, le=180)\nclass DriverAvailabilityUpdate(BaseModel):\n    is_available: bool\nclass DriverResponse(BaseModel):\n    id: int",
+        "detail": "backend.app.schemas.driver",
+        "documentation": {}
+    },
+    {
+        "label": "DriverLocationUpdate",
+        "kind": 6,
+        "importPath": "backend.app.schemas.driver",
+        "description": "backend.app.schemas.driver",
+        "peekOfCode": "class DriverLocationUpdate(BaseModel):\n    latitude: float = Field(..., ge=-90, le=90)\n    longitude: float = Field(..., ge=-180, le=180)\nclass DriverAvailabilityUpdate(BaseModel):\n    is_available: bool\nclass DriverResponse(BaseModel):\n    id: int\n    name: str\n    phone: str\n    status: DriverStatus",
+        "detail": "backend.app.schemas.driver",
+        "documentation": {}
+    },
+    {
+        "label": "DriverAvailabilityUpdate",
+        "kind": 6,
+        "importPath": "backend.app.schemas.driver",
+        "description": "backend.app.schemas.driver",
+        "peekOfCode": "class DriverAvailabilityUpdate(BaseModel):\n    is_available: bool\nclass DriverResponse(BaseModel):\n    id: int\n    name: str\n    phone: str\n    status: DriverStatus\n    current_lat: Optional[float] = None\n    current_lng: Optional[float] = None\n    rating: Optional[float] = 5.0",
+        "detail": "backend.app.schemas.driver",
+        "documentation": {}
+    },
+    {
+        "label": "DriverResponse",
+        "kind": 6,
+        "importPath": "backend.app.schemas.driver",
+        "description": "backend.app.schemas.driver",
+        "peekOfCode": "class DriverResponse(BaseModel):\n    id: int\n    name: str\n    phone: str\n    status: DriverStatus\n    current_lat: Optional[float] = None\n    current_lng: Optional[float] = None\n    rating: Optional[float] = 5.0\n    is_available: bool\n    created_at: datetime",
+        "detail": "backend.app.schemas.driver",
+        "documentation": {}
+    },
+    {
+        "label": "AssignmentService",
+        "kind": 6,
+        "importPath": "backend.app.services.assignment_service",
+        "description": "backend.app.services.assignment_service",
+        "peekOfCode": "class AssignmentService:\n    @classmethod\n    async def assign_driver(cls, db: AsyncSession, tenant_id: int, order_id: int, driver_id: int) -> Order:\n        \"\"\"Manually assigns a driver to an order.\"\"\"\n        # 1. Fetch order\n        order_result = await db.execute(select(Order).where(Order.id == order_id))\n        order = order_result.scalars().first()\n        if not order:\n            raise OrderNotFoundError()\n        if order.tenant_id != tenant_id:",
+        "detail": "backend.app.services.assignment_service",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "backend.app.services.assignment_service",
+        "description": "backend.app.services.assignment_service",
+        "peekOfCode": "logger = logging.getLogger(\"AssignmentService\")\nclass AssignmentService:\n    @classmethod\n    async def assign_driver(cls, db: AsyncSession, tenant_id: int, order_id: int, driver_id: int) -> Order:\n        \"\"\"Manually assigns a driver to an order.\"\"\"\n        # 1. Fetch order\n        order_result = await db.execute(select(Order).where(Order.id == order_id))\n        order = order_result.scalars().first()\n        if not order:\n            raise OrderNotFoundError()",
+        "detail": "backend.app.services.assignment_service",
+        "documentation": {}
+    },
+    {
+        "label": "ConnectionManager",
+        "kind": 6,
+        "importPath": "backend.app.services.connection_manager",
+        "description": "backend.app.services.connection_manager",
+        "peekOfCode": "class ConnectionManager:\n    def __init__(self):\n        # Maps delivery_id -> list of WebSockets tracking it\n        self.delivery_connections: Dict[int, List[WebSocket]] = {}\n        # List of global fleet monitoring WebSockets\n        self.fleet_connections: List[WebSocket] = []\n        # Maps delivery_id -> asyncio.Task running the Redis pub/sub listener\n        self.redis_tasks: Dict[int, asyncio.Task] = {}\n    async def connect_track(self, delivery_id: int, websocket: WebSocket):\n        await websocket.accept()",
+        "detail": "backend.app.services.connection_manager",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "backend.app.services.connection_manager",
+        "description": "backend.app.services.connection_manager",
+        "peekOfCode": "logger = logging.getLogger(\"ConnectionManager\")\nclass ConnectionManager:\n    def __init__(self):\n        # Maps delivery_id -> list of WebSockets tracking it\n        self.delivery_connections: Dict[int, List[WebSocket]] = {}\n        # List of global fleet monitoring WebSockets\n        self.fleet_connections: List[WebSocket] = []\n        # Maps delivery_id -> asyncio.Task running the Redis pub/sub listener\n        self.redis_tasks: Dict[int, asyncio.Task] = {}\n    async def connect_track(self, delivery_id: int, websocket: WebSocket):",
+        "detail": "backend.app.services.connection_manager",
+        "documentation": {}
+    },
+    {
+        "label": "manager",
+        "kind": 5,
+        "importPath": "backend.app.services.connection_manager",
+        "description": "backend.app.services.connection_manager",
+        "peekOfCode": "manager = ConnectionManager()",
+        "detail": "backend.app.services.connection_manager",
+        "documentation": {}
+    },
+    {
+        "label": "DeliveryService",
+        "kind": 6,
+        "importPath": "backend.app.services.delivery_service",
+        "description": "backend.app.services.delivery_service",
+        "peekOfCode": "class DeliveryService:\n    @staticmethod\n    async def create_delivery(db: AsyncSession, tenant_id: int, delivery_data: DeliveryCreate) -> Order:\n        db_order = Order(\n            tenant_id=tenant_id,\n            status=OrderStatus.CREATED,\n            pickup_lat=delivery_data.pickup_lat,\n            pickup_lng=delivery_data.pickup_lng,\n            dropoff_lat=delivery_data.dropoff_lat,\n            dropoff_lng=delivery_data.dropoff_lng",
+        "detail": "backend.app.services.delivery_service",
+        "documentation": {}
+    },
+    {
+        "label": "DriverService",
+        "kind": 6,
+        "importPath": "backend.app.services.driver_service",
+        "description": "backend.app.services.driver_service",
+        "peekOfCode": "class DriverService:\n    @staticmethod\n    async def create_driver(db: AsyncSession, driver_data: DriverCreate) -> Driver:\n        driver = Driver(\n            name=driver_data.name,\n            phone=driver_data.phone,\n            status=DriverStatus.OFFLINE,\n            rating=5.0,\n            is_available=True,\n            last_seen_at=datetime.now(timezone.utc)",
+        "detail": "backend.app.services.driver_service",
+        "documentation": {}
+    },
+    {
+        "label": "RouteService",
+        "kind": 6,
+        "importPath": "backend.app.services.route_service",
+        "description": "backend.app.services.route_service",
+        "peekOfCode": "class RouteService:\n    @staticmethod\n    async def get_route(\n        lat1: float, lng1: float, \n        lat2: float, lng2: float\n    ) -> dict:\n        \"\"\"\n        Computes route distance (meters) and ETA (minutes).\n        Caches results in Redis with a 5-minute TTL.\n        Uses CircuitBreaker to handle OpenRouteService outages and falls back to Haversine.",
+        "detail": "backend.app.services.route_service",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "backend.app.services.route_service",
+        "description": "backend.app.services.route_service",
+        "peekOfCode": "logger = logging.getLogger(\"RouteService\")\n# Initialize ORS Circuit Breaker\nors_circuit_breaker = CircuitBreaker(name=\"OpenRouteService\", failure_threshold=3, recovery_timeout=20.0)\nasync def _call_openrouteservice(lat1: float, lng1: float, lat2: float, lng2: float) -> dict:\n    \"\"\"Mock OpenRouteService API endpoint call. Will throw exception to trigger fallback.\"\"\"\n    # ORS requires coordinates in lng,lat format\n    url = f\"https://api.openrouteservice.org/v2/directions/driving-car\"\n    # To keep it production ready but safe, throw exception if ORS token isn't configured\n    raise Exception(\"OpenRouteService connection failed: API Token not configured\")\nclass RouteService:",
+        "detail": "backend.app.services.route_service",
+        "documentation": {}
+    },
+    {
+        "label": "ors_circuit_breaker",
+        "kind": 5,
+        "importPath": "backend.app.services.route_service",
+        "description": "backend.app.services.route_service",
+        "peekOfCode": "ors_circuit_breaker = CircuitBreaker(name=\"OpenRouteService\", failure_threshold=3, recovery_timeout=20.0)\nasync def _call_openrouteservice(lat1: float, lng1: float, lat2: float, lng2: float) -> dict:\n    \"\"\"Mock OpenRouteService API endpoint call. Will throw exception to trigger fallback.\"\"\"\n    # ORS requires coordinates in lng,lat format\n    url = f\"https://api.openrouteservice.org/v2/directions/driving-car\"\n    # To keep it production ready but safe, throw exception if ORS token isn't configured\n    raise Exception(\"OpenRouteService connection failed: API Token not configured\")\nclass RouteService:\n    @staticmethod\n    async def get_route(",
+        "detail": "backend.app.services.route_service",
+        "documentation": {}
+    },
+    {
+        "label": "OrderStateMachine",
+        "kind": 6,
+        "importPath": "backend.app.services.state_machine",
+        "description": "backend.app.services.state_machine",
+        "peekOfCode": "class OrderStateMachine:\n    # Key represents the current state, value represents the set of next valid states\n    VALID_TRANSITIONS: Dict[OrderStatus, Set[OrderStatus]] = {\n        OrderStatus.CREATED: {OrderStatus.DRIVER_PENDING, OrderStatus.CANCELLED},\n        OrderStatus.DRIVER_PENDING: {OrderStatus.ASSIGNED, OrderStatus.NO_DRIVER_AVAILABLE, OrderStatus.CANCELLED},\n        OrderStatus.ASSIGNED: {OrderStatus.PICKED_UP, OrderStatus.DRIVER_PENDING, OrderStatus.CANCELLED},\n        OrderStatus.PICKED_UP: {OrderStatus.IN_TRANSIT},\n        OrderStatus.IN_TRANSIT: {OrderStatus.DELIVERED},\n        OrderStatus.DELIVERED: set(),\n        OrderStatus.CANCELLED: set(),",
+        "detail": "backend.app.services.state_machine",
+        "documentation": {}
+    },
+    {
+        "label": "run_async",
+        "kind": 2,
+        "importPath": "backend.app.tasks.analytics",
+        "description": "backend.app.tasks.analytics",
+        "peekOfCode": "def run_async(coro):\n    try:\n        loop = asyncio.get_event_loop()\n    except RuntimeError:\n        loop = asyncio.new_event_loop()\n        asyncio.set_event_loop(loop)\n    return loop.run_until_complete(coro)\nasync def _process_delivery_analytics(order_id: int):\n    \"\"\"\n    Computes performance metrics (delivery times, ETA accuracy, stream distances)",
+        "detail": "backend.app.tasks.analytics",
+        "documentation": {}
+    },
+    {
+        "label": "process_delivery_analytics_task",
+        "kind": 2,
+        "importPath": "backend.app.tasks.analytics",
+        "description": "backend.app.tasks.analytics",
+        "peekOfCode": "def process_delivery_analytics_task(order_id: int, pushed_at: float = None):\n    \"\"\"Processes performance metrics for a completed order.\"\"\"\n    logger.info(f\"Processing delivery analytics task for Order #{order_id}, pushed_at={pushed_at}\")\n    run_async(_process_delivery_analytics(order_id))\n@celery_app.task(queue=\"analytics\")\ndef hourly_usage_aggregation_task():\n    \"\"\"Schedules cron aggregation of tenant daily request usage.\"\"\"\n    run_async(_hourly_usage_aggregation())",
+        "detail": "backend.app.tasks.analytics",
+        "documentation": {}
+    },
+    {
+        "label": "hourly_usage_aggregation_task",
+        "kind": 2,
+        "importPath": "backend.app.tasks.analytics",
+        "description": "backend.app.tasks.analytics",
+        "peekOfCode": "def hourly_usage_aggregation_task():\n    \"\"\"Schedules cron aggregation of tenant daily request usage.\"\"\"\n    run_async(_hourly_usage_aggregation())",
+        "detail": "backend.app.tasks.analytics",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "backend.app.tasks.analytics",
+        "description": "backend.app.tasks.analytics",
+        "peekOfCode": "logger = logging.getLogger(\"AnalyticsTask\")\ndef run_async(coro):\n    try:\n        loop = asyncio.get_event_loop()\n    except RuntimeError:\n        loop = asyncio.new_event_loop()\n        asyncio.set_event_loop(loop)\n    return loop.run_until_complete(coro)\nasync def _process_delivery_analytics(order_id: int):\n    \"\"\"",
+        "detail": "backend.app.tasks.analytics",
+        "documentation": {}
+    },
+    {
+        "label": "run_async",
+        "kind": 2,
+        "importPath": "backend.app.tasks.notifications",
+        "description": "backend.app.tasks.notifications",
+        "peekOfCode": "def run_async(coro):\n    \"\"\"Utility to run asynchronous coroutines in synchronous Celery task context.\"\"\"\n    try:\n        loop = asyncio.get_event_loop()\n    except RuntimeError:\n        loop = asyncio.new_event_loop()\n        asyncio.set_event_loop(loop)\n    return loop.run_until_complete(coro)\nasync def _db_log_notification(event_id: str, order_id: int, tenant_id: int, channel: str, event_type: str, status: str, error_message: str = None):\n    \"\"\"Inserts a notification record into the PostgreSQL database.\"\"\"",
+        "detail": "backend.app.tasks.notifications",
+        "documentation": {}
+    },
+    {
+        "label": "send_notification_task",
+        "kind": 2,
+        "importPath": "backend.app.tasks.notifications",
+        "description": "backend.app.tasks.notifications",
+        "peekOfCode": "def send_notification_task(self, event_id: str, event_type: str, order_id: int, tenant_id: int, pushed_at: float = None):\n    \"\"\"\n    Asynchronously processes notification triggers across channel streams (WebSockets, Push, Email).\n    Implements Redis-based idempotency checks and audit log bookkeeping.\n    \"\"\"\n    logger.info(f\"Processing notification event {event_type} (ID: {event_id}) for Order #{order_id}, pushed_at={pushed_at}\")\n    # 1. Fetch preferences\n    preferences = run_async(_get_tenant_preferences(tenant_id))\n    if not preferences:\n        preferences = {",
+        "detail": "backend.app.tasks.notifications",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "backend.app.tasks.notifications",
+        "description": "backend.app.tasks.notifications",
+        "peekOfCode": "logger = logging.getLogger(\"NotificationTask\")\nemail_circuit_breaker = CircuitBreaker(name=\"EmailProvider\", failure_threshold=3, recovery_timeout=15.0)\npush_circuit_breaker = CircuitBreaker(name=\"PushProvider\", failure_threshold=3, recovery_timeout=15.0)\ndef run_async(coro):\n    \"\"\"Utility to run asynchronous coroutines in synchronous Celery task context.\"\"\"\n    try:\n        loop = asyncio.get_event_loop()\n    except RuntimeError:\n        loop = asyncio.new_event_loop()\n        asyncio.set_event_loop(loop)",
+        "detail": "backend.app.tasks.notifications",
+        "documentation": {}
+    },
+    {
+        "label": "email_circuit_breaker",
+        "kind": 5,
+        "importPath": "backend.app.tasks.notifications",
+        "description": "backend.app.tasks.notifications",
+        "peekOfCode": "email_circuit_breaker = CircuitBreaker(name=\"EmailProvider\", failure_threshold=3, recovery_timeout=15.0)\npush_circuit_breaker = CircuitBreaker(name=\"PushProvider\", failure_threshold=3, recovery_timeout=15.0)\ndef run_async(coro):\n    \"\"\"Utility to run asynchronous coroutines in synchronous Celery task context.\"\"\"\n    try:\n        loop = asyncio.get_event_loop()\n    except RuntimeError:\n        loop = asyncio.new_event_loop()\n        asyncio.set_event_loop(loop)\n    return loop.run_until_complete(coro)",
+        "detail": "backend.app.tasks.notifications",
+        "documentation": {}
+    },
+    {
+        "label": "push_circuit_breaker",
+        "kind": 5,
+        "importPath": "backend.app.tasks.notifications",
+        "description": "backend.app.tasks.notifications",
+        "peekOfCode": "push_circuit_breaker = CircuitBreaker(name=\"PushProvider\", failure_threshold=3, recovery_timeout=15.0)\ndef run_async(coro):\n    \"\"\"Utility to run asynchronous coroutines in synchronous Celery task context.\"\"\"\n    try:\n        loop = asyncio.get_event_loop()\n    except RuntimeError:\n        loop = asyncio.new_event_loop()\n        asyncio.set_event_loop(loop)\n    return loop.run_until_complete(coro)\nasync def _db_log_notification(event_id: str, order_id: int, tenant_id: int, channel: str, event_type: str, status: str, error_message: str = None):",
+        "detail": "backend.app.tasks.notifications",
+        "documentation": {}
+    },
+    {
+        "label": "create_app",
+        "kind": 2,
+        "importPath": "backend.app.main",
+        "description": "backend.app.main",
+        "peekOfCode": "def create_app() -> FastAPI:\n    app = FastAPI(\n        title=\"Delivery Infrastructure Platform API\",\n        version=\"0.1.0\",\n        description=\"A Real-Time Logistics & Tracking Platform for Modern Applications\",\n        lifespan=lifespan\n    )\n    # Enable CORS (Cross-Origin Resource Sharing) so frontend can communicate with backend\n    app.add_middleware(\n        CORSMiddleware,",
+        "detail": "backend.app.main",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "backend.app.main",
+        "description": "backend.app.main",
+        "peekOfCode": "app = create_app()",
+        "detail": "backend.app.main",
+        "documentation": {}
+    },
+    {
+        "label": "event_loop",
+        "kind": 2,
+        "importPath": "backend.tests.conftest",
+        "description": "backend.tests.conftest",
+        "peekOfCode": "def event_loop():\n    \"\"\"Create an instance of the default event loop for each test case.\"\"\"\n    loop = asyncio.get_event_loop_policy().new_event_loop()\n    yield loop\n    loop.close()\n@pytest_asyncio.fixture(scope=\"session\")\nasync def test_engine():\n    engine = create_async_engine(TEST_DATABASE_URL, connect_args={\"check_same_thread\": False})\n    # Import all models to register on Base metadata\n    from app.models.tenant import Tenant",
+        "detail": "backend.tests.conftest",
+        "documentation": {}
+    },
+    {
+        "label": "TEST_DATABASE_URL",
+        "kind": 5,
+        "importPath": "backend.tests.conftest",
+        "description": "backend.tests.conftest",
+        "peekOfCode": "TEST_DATABASE_URL = \"sqlite+aiosqlite:///:memory:\"\n@pytest.fixture(scope=\"session\")\ndef event_loop():\n    \"\"\"Create an instance of the default event loop for each test case.\"\"\"\n    loop = asyncio.get_event_loop_policy().new_event_loop()\n    yield loop\n    loop.close()\n@pytest_asyncio.fixture(scope=\"session\")\nasync def test_engine():\n    engine = create_async_engine(TEST_DATABASE_URL, connect_args={\"check_same_thread\": False})",
+        "detail": "backend.tests.conftest",
+        "documentation": {}
+    },
+    {
+        "label": "test_valid_transitions",
+        "kind": 2,
+        "importPath": "backend.tests.test_state_machine",
+        "description": "backend.tests.test_state_machine",
+        "peekOfCode": "def test_valid_transitions():\n    # CREATED -> DRIVER_PENDING\n    assert OrderStateMachine.validate_transition(OrderStatus.CREATED, OrderStatus.DRIVER_PENDING) == OrderStatus.DRIVER_PENDING\n    # DRIVER_PENDING -> ASSIGNED\n    assert OrderStateMachine.validate_transition(OrderStatus.DRIVER_PENDING, OrderStatus.ASSIGNED) == OrderStatus.ASSIGNED\n    # ASSIGNED -> PICKED_UP\n    assert OrderStateMachine.validate_transition(OrderStatus.ASSIGNED, OrderStatus.PICKED_UP) == OrderStatus.PICKED_UP\n    # PICKED_UP -> IN_TRANSIT\n    assert OrderStateMachine.validate_transition(OrderStatus.PICKED_UP, OrderStatus.IN_TRANSIT) == OrderStatus.IN_TRANSIT\n    # IN_TRANSIT -> DELIVERED",
+        "detail": "backend.tests.test_state_machine",
+        "documentation": {}
+    },
+    {
+        "label": "test_invalid_transitions",
+        "kind": 2,
+        "importPath": "backend.tests.test_state_machine",
+        "description": "backend.tests.test_state_machine",
+        "peekOfCode": "def test_invalid_transitions():\n    # Can't go CREATED -> ASSIGNED directly anymore without DRIVER_PENDING\n    with pytest.raises(InvalidTransitionError):\n        OrderStateMachine.validate_transition(OrderStatus.CREATED, OrderStatus.ASSIGNED)\n    # Can't go CREATED -> DELIVERED directly\n    with pytest.raises(InvalidTransitionError):\n        OrderStateMachine.validate_transition(OrderStatus.CREATED, OrderStatus.DELIVERED)\n    # Can't go DELIVERED -> ASSIGNED\n    with pytest.raises(InvalidTransitionError):\n        OrderStateMachine.validate_transition(OrderStatus.DELIVERED, OrderStatus.ASSIGNED)",
+        "detail": "backend.tests.test_state_machine",
+        "documentation": {}
+    },
+    {
+        "label": "test_cancel_flow",
+        "kind": 2,
+        "importPath": "backend.tests.test_state_machine",
+        "description": "backend.tests.test_state_machine",
+        "peekOfCode": "def test_cancel_flow():\n    # CREATED -> CANCELLED (allowed)\n    assert OrderStateMachine.validate_transition(OrderStatus.CREATED, OrderStatus.CANCELLED) == OrderStatus.CANCELLED\n    # DRIVER_PENDING -> CANCELLED (allowed)\n    assert OrderStateMachine.validate_transition(OrderStatus.DRIVER_PENDING, OrderStatus.CANCELLED) == OrderStatus.CANCELLED\n    # ASSIGNED -> CANCELLED (allowed)\n    assert OrderStateMachine.validate_transition(OrderStatus.ASSIGNED, OrderStatus.CANCELLED) == OrderStatus.CANCELLED\n    # PICKED_UP -> CANCELLED (not allowed)\n    with pytest.raises(InvalidTransitionError):\n        OrderStateMachine.validate_transition(OrderStatus.PICKED_UP, OrderStatus.CANCELLED)",
+        "detail": "backend.tests.test_state_machine",
+        "documentation": {}
+    },
+    {
+        "label": "_Known",
+        "kind": 6,
+        "importPath": "frontend.node_modules.flatted.python.flatted",
+        "description": "frontend.node_modules.flatted.python.flatted",
+        "peekOfCode": "class _Known:\n    def __init__(self):\n        self.key = []\n        self.value = []\nclass _String:\n    def __init__(self, value):\n        self.value = value\ndef _array_keys(value):\n    for i in range(len(value)):\n        yield i",
+        "detail": "frontend.node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "_String",
+        "kind": 6,
+        "importPath": "frontend.node_modules.flatted.python.flatted",
+        "description": "frontend.node_modules.flatted.python.flatted",
+        "peekOfCode": "class _String:\n    def __init__(self, value):\n        self.value = value\ndef _array_keys(value):\n    for i in range(len(value)):\n        yield i\ndef _object_keys(value):\n    for key in value:\n        yield key\ndef _is_array(value):",
+        "detail": "frontend.node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "parse",
+        "kind": 2,
+        "importPath": "frontend.node_modules.flatted.python.flatted",
+        "description": "frontend.node_modules.flatted.python.flatted",
+        "peekOfCode": "def parse(value, *args, **kwargs):\n    json = _json.loads(value, *args, **kwargs)\n    wrapped = []\n    for value in json:\n        wrapped.append(_wrap(value))\n    input = []\n    for value in wrapped:\n        if isinstance(value, _String):\n            input.append(value.value)\n        else:",
+        "detail": "frontend.node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "stringify",
+        "kind": 2,
+        "importPath": "frontend.node_modules.flatted.python.flatted",
+        "description": "frontend.node_modules.flatted.python.flatted",
+        "peekOfCode": "def stringify(value, *args, **kwargs):\n    known = _Known()\n    input = []\n    output = []\n    i = int(_index(known, input, value))\n    while i < len(input):\n        output.append(_transform(known, input, input[i]))\n        i += 1\n    return _json.dumps(output, *args, **kwargs)",
+        "detail": "frontend.node_modules.flatted.python.flatted",
+        "documentation": {}
+    }
+]
