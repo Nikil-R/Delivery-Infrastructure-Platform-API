@@ -23,7 +23,7 @@ jobs:
       - name: Run Agent Router Hub Code Reviewer
         env:
           AGENT_ROUTER_HUB_URL: ${{ secrets.AGENT_ROUTER_HUB_URL || 'http://localhost:8000' }}
-          AGENT_ROUTER_HUB_API_KEY: ${{ secrets.AGENT_ROUTER_HUB_API_KEY || 'am_live_amu2b6c132msvzstbf' }}
+          AGENT_ROUTER_HUB_API_KEY: ${{ secrets.AGENT_ROUTER_HUB_API_KEY || 'am_live_kmoepx8epsmsw0lrsy' }}
         run: |
           echo "[Agent Router Hub] Auditing code changes for code-reviewer..."
           DIFF_DATA=$(git diff HEAD~1..HEAD --stat || echo "Initial commit or no parent")
