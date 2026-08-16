@@ -178,7 +178,7 @@ High-frequency analytics writes and system metric aggregates must not block high
 * `analytics`: Lower-priority aggregations.
 If the `analytics` queue piles up, driver matching and notification deliveries remain entirely unaffected.
 
-### Circuit Breakers & Fallbacksss
+### Circuit Breakers & Fallbacks
 If our primary routing engine (OpenRouteService) encounters a rate limit or goes offline, standard integrations hang and block the main thread. A circuit breaker monitors client timeouts; if errors exceed 20%, the system switches to **HALF-OPEN** state and routes traffic instantly through a local **Haversine route fallback**, keeping the platform functional.
 
 ### Multi-Tenant Metering & Rate Limiting
